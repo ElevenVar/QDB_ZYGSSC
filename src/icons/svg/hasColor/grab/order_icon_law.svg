@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="47px" height="18px" viewBox="0 0 47 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <defs>
+        <linearGradient x1="7.12601666%" y1="42.6663649%" x2="93.7966331%" y2="57.3336351%" id="linearGradient-1">
+            <stop stop-color="#C1C7D0" offset="0%"></stop>
+            <stop stop-color="#8A909B" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="订单-待抢单" transform="translate(-400.000000, -322.000000)">
+            <g id="icon_law" transform="translate(400.000000, 322.000000)">
+                <rect id="矩形复制" fill="url(#linearGradient-1)" x="0" y="0" width="47" height="18" rx="9"></rect>
+                <g id="编组" transform="translate(5.000000, 4.000000)" stroke="#FFFFFF" stroke-linecap="round" stroke-width="0.8">
+                    <polyline id="Stroke-1" points="1.9735 4.54369 5.6315 0.88569 7.6935 2.94769 4.0365 6.60669"></polyline>
+                    <line x1="5.6317" y1="0.88549" x2="7.6937" y2="2.94849" id="Stroke-3"></line>
+                    <line x1="5.2459" y1="0.50019" x2="8.0789" y2="3.33319" id="Stroke-5"></line>
+                    <line x1="1.5194" y1="4.22679" x2="4.3524" y2="7.05979" id="Stroke-7"></line>
+                    <line x1="5.9139" y1="4.89039" x2="9.2149" y2="8.19139" id="Stroke-9"></line>
+                    <line x1="0.4998" y1="8.92159" x2="4.3908" y2="8.92159" id="Stroke-11"></line>
+                </g>
+                <text id="法顾" font-family="PingFangSC-Regular, PingFang SC" font-size="12" font-weight="normal" letter-spacing="0.66" fill="#FFFFFF">
+                    <tspan x="16" y="13">法顾</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

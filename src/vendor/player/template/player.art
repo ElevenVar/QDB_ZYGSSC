@@ -1,0 +1,36 @@
+{{ if !options.fixed }}
+<div class="dgg-player-wrapper">
+    <div class="dgg-player-btn-wrapper">
+        <div class="dgg-player-backward">
+            <img src="{{icons.backward }}" />
+        </div>
+        <div class="dgg-play-btn player-play">
+            <img src="{{icons.play }}" />
+        </div>
+        <div class="dgg-player-forward">
+            <img src="{{icons.forward }}" />
+        </div>
+    </div>
+    <div class="dgg-player-info-wrapper">
+        <div class="info">
+            <div class="title"></div>
+            <div class="time-info">
+                <span class="ptime">00.00</span><span class="time-interval"></span>
+                <span class="time-slash">/</span>
+                <span class="time-total">0.00</span>
+            </div>
+        </div>
+        <div class="dgg-player-bar-wrapper">
+            <div class="dgg-player-bar-bg">
+            </div>
+            <div class="dgg-player-bar-loaded">
+            </div>
+            <div class="dgg-player-bar-played">
+                <span class="dgg-player-bar-circle"></span>
+            </div>
+        </div>
+    </div>
+</div>
+{{ else }}
+<div></div>
+{{/if}}

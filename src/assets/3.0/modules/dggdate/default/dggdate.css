@@ -1,0 +1,556 @@
+@charset "UTF-8";
+/**
+
+ @Name: laydata
+ @Author: Bz
+
+ **/
+/*按钮背景色*/
+/*各元素边框颜色*/
+/*默认全局字体颜色*/
+/*背景色*/
+/*日期控件*/
+/*日期控件 默认主体*/
+/*日期控件 墨绿/自定义背景主体色*/
+/*日期控件 格子主题*/
+/*弹窗*/
+/*弹窗 标题栏*/
+/*弹窗 按钮组*/
+/*弹窗 定制化*/
+/*弹窗 skin*/
+/*弹窗 prompt模式*/
+/*弹窗 tab模式*/
+/*弹窗 photo模式*/
+/*使用浮动过后，清除浮动*/
+/*背景色*/
+/*线条颜色*/
+/*使用浮动过后，清除浮动*/
+/*常用inline-block 垂直居中法*/
+html #dgguicss-dggdate {
+  display: none;
+  position: absolute;
+  width: 1989px;
+}
+
+/* 初始化 */
+.dggui-dggdate * {
+  margin: 0;
+  padding: 0;
+}
+
+/* 主体结构 */
+.dggui-dggdate, .dggui-dggdate * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.dggui-dggdate {
+  position: absolute;
+  z-index: 66666666;
+  margin: 5px 0;
+  border-radius: 2px;
+  font-size: 14px;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.dggui-dggdate-main {
+  width: 272px;
+}
+
+.dggui-dggdate-header *,
+.dggui-dggdate-content td,
+.dggui-dggdate-list li {
+  transition-duration: .3s;
+  -webkit-transition-duration: .3s;
+}
+
+@-webkit-keyframes dggdate-upbit {
+  /* 微微往上滑入 */
+  from {
+    -webkit-transform: translate3d(0, 20px, 0);
+    opacity: 0.3;
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes dggdate-upbit {
+  from {
+    -webkit-transform: translate3d(0, 20px, 0);
+            transform: translate3d(0, 20px, 0);
+    opacity: 0.3;
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+.dggui-dggdate {
+  -webkit-animation-name: dggdate-upbit;
+  animation-name: dggdate-upbit;
+}
+
+.dggui-dggdate-static {
+  position: relative;
+  z-index: 0;
+  display: inline-block;
+  margin: 0;
+  -webkit-animation: none;
+  animation: none;
+}
+
+/* 展开年月列表时 */
+.dggdate-ym-show .dggdate-prev-m,
+.dggdate-ym-show .dggdate-next-m {
+  display: none !important;
+}
+
+.dggdate-ym-show .dggdate-prev-y,
+.dggdate-ym-show .dggdate-next-y {
+  display: inline-block !important;
+}
+
+.dggdate-ym-show .dggdate-set-ym span[lay-type="month"] {
+  display: none !important;
+}
+
+/* 展开时间列表时 */
+.dggdate-time-show .dggui-dggdate-header .dggui-icon,
+.dggdate-time-show .dggdate-set-ym span[lay-type="year"],
+.dggdate-time-show .dggdate-set-ym span[lay-type="month"] {
+  display: none !important;
+}
+
+/* 头部结构 */
+.dggui-dggdate-header {
+  position: relative;
+  line-height: 30px;
+  padding: 10px 70px 5px;
+}
+
+.dggui-dggdate-header * {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.dggui-dggdate-header i {
+  position: absolute;
+  top: 10px;
+  padding: 0 5px;
+  color: #999;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.dggui-dggdate-header i.dggdate-prev-y {
+  left: 15px;
+}
+
+.dggui-dggdate-header i.dggdate-prev-m {
+  left: 45px;
+}
+
+.dggui-dggdate-header i.dggdate-next-y {
+  right: 15px;
+}
+
+.dggui-dggdate-header i.dggdate-next-m {
+  right: 45px;
+}
+
+.dggdate-set-ym {
+  width: 100%;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.dggdate-set-ym span {
+  padding: 0 5px;
+  cursor: pointer;
+}
+
+.dggdate-time-text {
+  cursor: default !important;
+}
+
+/* 主体结构 */
+.dggui-dggdate-content {
+  position: relative;
+  padding: 10px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.dggui-dggdate-content table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.dggui-dggdate-content th,
+.dggui-dggdate-content td {
+  width: 36px;
+  height: 30px;
+  padding: 5px;
+  text-align: center;
+}
+
+.dggui-dggdate-content th {
+  font-weight: 400;
+}
+
+.dggui-dggdate-content td {
+  position: relative;
+  cursor: pointer;
+}
+
+.dggdate-day-mark {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  line-height: 30px;
+  font-size: 12px;
+  overflow: hidden;
+}
+
+.dggdate-day-mark::after {
+  position: absolute;
+  content: '';
+  right: 2px;
+  top: 2px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+
+/* 底部结构 */
+.dggui-dggdate-footer {
+  position: relative;
+  height: 46px;
+  line-height: 26px;
+  padding: 10px 20px;
+}
+
+.dggui-dggdate-footer span {
+  margin-right: 15px;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.dggui-dggdate-footer span:hover {
+  color: #f8813f;
+}
+
+.dggdate-footer-btns {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.dggdate-footer-btns span {
+  height: 26px;
+  line-height: 26px;
+  margin: 0 0 0 -1px;
+  padding: 0 10px;
+  border: 1px solid #C9C9C9;
+  background-color: #fff;
+  white-space: nowrap;
+  vertical-align: top;
+  border-radius: 2px;
+}
+
+/* 年月列表 */
+.dggui-dggdate-list {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #fff;
+}
+
+.dggui-dggdate-list > li {
+  position: relative;
+  display: inline-block;
+  width: 33.3%;
+  height: 36px;
+  line-height: 36px;
+  margin: 3px 0;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+}
+
+.dggdate-month-list > li {
+  width: 25%;
+  margin: 17px 0;
+}
+
+.dggdate-time-list > li {
+  height: 100%;
+  margin: 0;
+  line-height: normal;
+  cursor: default;
+}
+
+.dggdate-time-list p {
+  position: relative;
+  top: -4px;
+  line-height: 29px;
+}
+
+.dggdate-time-list ol {
+  height: 181px;
+  overflow: hidden;
+}
+
+.dggdate-time-list > li:hover ol {
+  overflow-y: auto;
+}
+
+.dggdate-time-list ol li {
+  width: 130%;
+  padding-left: 33px;
+  line-height: 30px;
+  text-align: left;
+  cursor: pointer;
+}
+
+/* 提示 */
+.dggui-dggdate-hint {
+  position: absolute;
+  top: 115px;
+  left: 50%;
+  width: 250px;
+  margin-left: -125px;
+  line-height: 20px;
+  padding: 15px;
+  text-align: center;
+  font-size: 12px;
+  color: #FF5722;
+}
+
+/* 双日历 */
+.dggui-dggdate-range {
+  width: 546px;
+}
+
+.dggui-dggdate-range .dggui-dggdate-main {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.dggui-dggdate-range .dggdate-main-list-0 .dggdate-next-m,
+.dggui-dggdate-range .dggdate-main-list-0 .dggdate-next-y,
+.dggui-dggdate-range .dggdate-main-list-1 .dggdate-prev-y,
+.dggui-dggdate-range .dggdate-main-list-1 .dggdate-prev-m {
+  display: none;
+}
+
+.dggui-dggdate-range .dggdate-main-list-1 .dggui-dggdate-content {
+  border-left: 1px solid #e2e2e2;
+}
+
+/* 默认简约主题 */
+.dggui-dggdate, .dggui-dggdate-hint {
+  border: 1px solid #d2d2d2;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+  background-color: #fff;
+  color: #666;
+}
+
+.dggui-dggdate-header {
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.dggui-dggdate-header i:hover,
+.dggui-dggdate-header span:hover {
+  color: #f8813f;
+}
+
+.dggui-dggdate-content {
+  border-top: none 0;
+  border-bottom: none 0;
+}
+
+.dggui-dggdate-content th {
+  color: #f8813f;
+}
+
+.dggui-dggdate-content td {
+  color: #666;
+}
+
+.dggui-dggdate-content td.dggdate-selected {
+  background-color: #FFB800;
+}
+
+.dggdate-selected:hover {
+  background-color: #FFB800 !important;
+}
+
+.dggui-dggdate-content td:hover,
+.dggui-dggdate-list li:hover {
+  background-color: #eaeaea;
+  color: #f8813f;
+}
+
+.dggdate-time-list li ol {
+  margin: 0;
+  padding: 0;
+  border: 1px solid #e2e2e2;
+  border-left-width: 0;
+}
+
+.dggdate-time-list li:first-child ol {
+  border-left-width: 1px;
+}
+
+.dggdate-time-list > li:hover {
+  background: none;
+}
+
+.dggui-dggdate-content .dggdate-day-prev,
+.dggui-dggdate-content .dggdate-day-next {
+  color: #d2d2d2;
+}
+
+.dggdate-selected.dggdate-day-prev,
+.dggdate-selected.dggdate-day-next {
+  background-color: #f8f8f8 !important;
+}
+
+.dggui-dggdate-footer {
+  border-top: 1px solid #e2e2e2;
+}
+
+.dggui-dggdate-hint {
+  color: #FF5722;
+}
+
+.dggdate-day-mark::after {
+  background-color: #f8813f;
+}
+
+.dggui-dggdate-content td.dggui-this .dggdate-day-mark::after {
+  display: none;
+}
+
+.dggui-dggdate-footer span[lay-type="date"] {
+  color: #f8813f;
+}
+
+.dggui-dggdate .dggui-this {
+  background-color: #f8813f !important;
+  color: #fff !important;
+}
+
+.dggui-dggdate .dggdate-disabled,
+.dggui-dggdate .dggdate-disabled:hover {
+  background: none !important;
+  color: #d2d2d2 !important;
+  cursor: not-allowed !important;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+/* 墨绿/自定义背景色主题 */
+.dggdate-theme-molv {
+  border: none;
+}
+
+.dggdate-theme-molv.dggui-dggdate-range {
+  width: 548px;
+}
+
+.dggdate-theme-molv .dggui-dggdate-main {
+  width: 274px;
+}
+
+.dggdate-theme-molv .dggui-dggdate-header {
+  border: none;
+  background-color: #009688;
+}
+
+.dggdate-theme-molv .dggui-dggdate-header i,
+.dggdate-theme-molv .dggui-dggdate-header span {
+  color: #f6f6f6;
+}
+
+.dggdate-theme-molv .dggui-dggdate-header i:hover,
+.dggdate-theme-molv .dggui-dggdate-header span:hover {
+  color: #fff;
+}
+
+.dggdate-theme-molv .dggui-dggdate-content {
+  border: 1px solid #e2e2e2;
+  border-top: none;
+  border-bottom: none;
+}
+
+.dggdate-theme-molv .dggdate-main-list-1 .dggui-dggdate-content {
+  border-left: none;
+}
+
+.dggdate-theme-molv .dggui-dggdate-footer {
+  border: 1px solid #e2e2e2;
+}
+
+/* 格子主题 */
+.dggdate-theme-grid .dggui-dggdate-content td,
+.dggdate-theme-grid .dggui-dggdate-content thead,
+.dggdate-theme-grid .dggdate-year-list > li,
+.dggdate-theme-grid .dggdate-month-list > li {
+  border: 1px solid #e2e2e2;
+}
+
+.dggdate-theme-grid .dggdate-selected,
+.dggdate-theme-grid .dggdate-selected:hover {
+  background-color: #f2f2f2 !important;
+  color: #009688 !important;
+}
+
+.dggdate-theme-grid .dggdate-selected.dggdate-day-prev,
+.dggdate-theme-grid .dggdate-selected.dggdate-day-next {
+  color: #d2d2d2 !important;
+}
+
+.dggdate-theme-grid .dggdate-year-list,
+.dggdate-theme-grid .dggdate-month-list {
+  margin: 1px 0 0 1px;
+}
+
+.dggdate-theme-grid .dggdate-year-list > li,
+.dggdate-theme-grid .dggdate-month-list > li {
+  margin: 0 -1px -1px 0;
+}
+
+.dggdate-theme-grid .dggdate-year-list > li {
+  height: 43px;
+  line-height: 43px;
+}
+
+.dggdate-theme-grid .dggdate-month-list > li {
+  height: 71px;
+  line-height: 71px;
+}
+/*# sourceMappingURL=dggdate.css.map */

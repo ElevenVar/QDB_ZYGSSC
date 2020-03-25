@@ -1,0 +1,924 @@
+@charset "UTF-8";
+/*按钮背景色*/
+/*各元素边框颜色*/
+/*默认全局字体颜色*/
+/*背景色*/
+/*日期控件*/
+/*日期控件 默认主体*/
+/*日期控件 墨绿/自定义背景主体色*/
+/*日期控件 格子主题*/
+/*弹窗*/
+/*弹窗 标题栏*/
+/*弹窗 按钮组*/
+/*弹窗 定制化*/
+/*弹窗 skin*/
+/*弹窗 prompt模式*/
+/*弹窗 tab模式*/
+/*弹窗 photo模式*/
+/*使用浮动过后，清除浮动*/
+/*背景色*/
+/*线条颜色*/
+/*使用浮动过后，清除浮动*/
+/*常用inline-block 垂直居中法*/
+.red {
+  color: #ff4242 !important;
+}
+
+.orange {
+  color: #f8813f !important;
+}
+
+.blue {
+  color: #2e6be5 !important;
+}
+
+.dggui-btn {
+  border-radius: 2px;
+  line-height: 26px;
+  height: 28px;
+  font-size: 12px;
+  background: #fff;
+  padding: 0 12px;
+  position: relative;
+  border: 0;
+  color: #fff;
+  background-color: #ff8b4c;
+}
+
+.dggui-btn:hover {
+  border: 0;
+}
+
+.dggui-btn.dggui-btn-ico {
+  padding: 0 7px;
+}
+
+.dggui-btn.dggui-btn-ico .iconfont {
+  margin: 0;
+}
+
+.dggui-btn.dggui-btn-primary {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #666;
+}
+
+.dggui-btn.dggui-btn-n {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #666;
+}
+
+.dggui-btn.dggui-btn-sm {
+  height: 24px;
+  line-height: 22px;
+  padding: 0 6px;
+}
+
+.dggui-btn.dggui-btn-orange {
+  background-color: #fff;
+  border: 1px solid #ff8b4c;
+  color: #f8813f;
+}
+
+.dggui-btn.dggui-btn-orange:hover {
+  border: 1px solid #f8813f;
+}
+
+.dggui-btn.dggui-btn-green {
+  border: 1px solid #77bd4d;
+  color: #77bd4d;
+  background-color: #fff;
+}
+
+.dggui-btn.dggui-btn-link {
+  border: 1px solid #7491ff;
+  color: #7491ff;
+  background-color: #fff;
+}
+
+.dggui-btn.dggui-btn-danger {
+  border: 1px solid #ff6666;
+  color: #ff6666;
+  background-color: #fff;
+}
+
+.dggui-btn.dggui-color-btn {
+  border: 1px solid #f7ceb8;
+  color: #f8813f;
+}
+
+.dggui-btn.dggui-color-btn:hover {
+  border: 1px solid #f7ceb8;
+  color: #f8813f;
+}
+
+.dggui-btn.dggui-btn-orange.dggui-btn-disabled,
+.dggui-btn.dggui-btn-disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.dggui-btn.dggui-btn-disabled:hover {
+  border-color: #e0e0e0;
+}
+
+.dggui-btn.dggui-btn-orange.dggui-btn-disabled:hover {
+  border-color: #f7d6c5;
+}
+
+.dggui-btn.dggui-btn-sm {
+  height: 24px;
+  line-height: 22px;
+  padding: 0 6px;
+}
+
+.dggui-btn-toggle {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.dggui-btn-toggle .dggui-btn {
+  position: relative;
+  padding-right: 24px;
+}
+
+.dggui-btn-toggle .dggui-btn:after {
+  content: '';
+  position: absolute;
+  right: 7px;
+  top: 50%;
+  margin-top: -2px;
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 4px 4px 0 4px;
+  border-color: #b3b3b3 transparent transparent transparent;
+}
+
+.toggle-menu {
+  position: absolute;
+  top: 33px;
+  min-width: 76px;
+  padding: 10px 20px;
+  max-height: 200px;
+  border: 1px #e4e4e4 solid;
+  background-color: #fff;
+  z-index: 1;
+  display: none;
+  text-align: left;
+  overflow-y: auto;
+}
+
+.toggle-menu.open {
+  display: block;
+}
+
+.toggle-menu:before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 4px 5px 4px;
+  border-color: transparent transparent #b3b3b3 transparent;
+}
+
+.toggle-menu:after {
+  content: '';
+  position: absolute;
+  top: -5px;
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 4px 5px 4px;
+  border-color: transparent transparent #fff transparent;
+}
+
+.toggle-menu li {
+  display: block;
+  line-height: 28px;
+}
+
+.toggle-menu li > a {
+  color: #333;
+}
+
+.toggle-menu li > a:hover {
+  color: #ff8b4c;
+}
+
+.dggui-link {
+  color: #2e6be5;
+  background-color: transparent;
+}
+
+.dggui-link .icon-xiayiye {
+  font-size: 12px;
+}
+
+.dggui-link.dggui-link-primary {
+  color: #ffa473;
+}
+
+.dggui-link.dggui-link-primary:hover {
+  color: #7491ff;
+}
+
+.dggui-link:hover {
+  text-decoration: underline;
+  color: #2e6be5;
+}
+
+.dggui-tag {
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 2px;
+  line-height: 18px;
+  height: 18px;
+  font-size: 12px;
+  background: #999;
+  padding: 0 6px;
+  position: relative;
+  color: #fff;
+}
+
+.dggui-tag.dggui-tag-orang {
+  background-color: #f99157;
+}
+
+.dggui-tag.dggui-tag-green {
+  background-color: #98d374;
+}
+
+.dggui-tag.dggui-tag-purple {
+  background-color: #de8cf6;
+}
+
+.dggui-tag.dggui-tag-red {
+  background-color: #f67190;
+}
+
+.dggui-tag.dggui-tag-blue {
+  background-color: #5cc8df;
+}
+
+.dggui-tag.dggui-tag-brBlue {
+  background-color: #819cda;
+}
+
+.triangle {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 4px 4px 4px;
+  border-color: transparent transparent #b3b3b3 transparent;
+}
+
+.triangle.active {
+  border-color: transparent transparent #ff8b4c transparent;
+}
+
+.triangle.bottom {
+  border-width: 4px 4px 0 4px;
+  border-color: #b3b3b3 transparent transparent transparent;
+}
+
+.triangle.bottom.active {
+  border-color: #ff8b4c transparent transparent transparent;
+}
+
+.triangle.left {
+  border-width: 4px 4px 4px 0;
+  border-color: transparent #b3b3b3 transparent transparent;
+}
+
+.triangle.left.active {
+  border-color: transparent #ff8b4c transparent transparent;
+}
+
+.triangle.right {
+  border-width: 4px 0 4px 4px;
+  border-color: transparent transparent transparent #b3b3b3;
+}
+
+.triangle.right.active {
+  border-color: transparent transparent transparent #ff8b4c;
+}
+
+.dggui-table-info {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.dggui-table-info thead th {
+  padding: 7px 0 7px 2px;
+}
+
+.dggui-table-info tbody th {
+  white-space: nowrap;
+  text-align: right;
+  vertical-align: text-top;
+  width: 5%;
+  max-width: 180px;
+  color: #666;
+  font-weight: normal;
+  padding: 7px 0 7px 2px;
+}
+
+.dggui-table-info tbody th.vertical-top {
+  line-height: 28px;
+  vertical-align: top;
+}
+
+.dggui-table-info tbody td {
+  position: relative;
+  padding: 7px 15px 7px 7px;
+  min-width: 150px;
+  vertical-align: text-top;
+  word-break: break-all;
+}
+
+.dggui-table-info tbody td .line {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: block;
+  overflow: hidden;
+}
+
+.dggui-table-info tbody td .upload-compact {
+  padding: 0;
+}
+
+.dggui-table-info tbody td .upload-compact li:first-child {
+  margin-left: 0;
+}
+
+.dggui-table-info tbody td .dggui-select, .dggui-table-info tbody td .dggui-input {
+  max-width: 280px;
+  min-width: 100px;
+  width: 100%;
+}
+
+.dggui-table-info tbody td .select2.select2-container.select2-container--default {
+  max-width: 280px;
+  min-width: 100px;
+}
+
+.dggui-table-info tbody td .dggui-input-long {
+  max-width: 420px;
+}
+
+.dggui-table-info tbody td .tips-plug-warp {
+  position: relative;
+  display: inline-block;
+  max-width: 280px;
+  min-width: 100px;
+  width: 100%;
+  padding-right: 25px;
+}
+
+.dggui-table-info tbody td .tips-plug-warp > .tips-plug {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  color: #b5b5b5;
+  font-size: 14px;
+}
+
+.dggui-table-info tbody td .dggui-rate {
+  padding: 0;
+  margin-top: -10px;
+}
+
+.dggui-table-info tbody td .unit-warp {
+  position: relative;
+  max-width: 280px;
+  min-width: 100px;
+  padding-right: 40px;
+  line-height: 28px;
+}
+
+.dggui-table-info tbody td .unit-warp .unit {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 35px;
+  text-align: left;
+}
+
+.dggui-table-info tbody td .units-warp {
+  position: relative;
+  max-width: 280px;
+  min-width: 100px;
+  padding-right: 90px;
+  line-height: 28px;
+}
+
+.dggui-table-info tbody td .units-warp .units {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 85px;
+  text-align: left;
+}
+
+.dggui-table-info tbody td .units-warp .dggui-select {
+  width: 60px;
+  min-width: auto;
+  margin-left: 5px;
+}
+
+.dggui-table-info.edit tbody td {
+  padding: 7px 15px 7px 0;
+}
+
+.dggui-table-info.edit tbody td .dggui-input, .dggui-table-info.edit tbody td .dggui-select {
+  display: none;
+}
+
+.dggui-table-info.edit tbody td .dggui-select:disabled {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+.dggui-table-info.edit tbody td .dggui-input-time + .iconfont {
+  display: none;
+}
+
+.dggui-table-info.edit tbody td .dggui-radio {
+  display: none;
+}
+
+.dggui-table-info.edit.be-editing tbody .dggui-input-time + .iconfont {
+  display: inline-block;
+}
+
+.dggui-table-info .required {
+  position: relative;
+}
+
+.dggui-table-info .required:after {
+  content: '*';
+  position: absolute;
+  top: 50%;
+  right: -2px;
+  color: #f8813f;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  height: 15px;
+}
+
+.dggui-icon-btn {
+  color: #999;
+  font-weight: normal;
+}
+
+.dggui-icon-btn .iconfont {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  margin-right: 3px;
+}
+
+.dggui-icon-btn span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.dggui-table thead th {
+  line-height: 36px;
+}
+
+.dggui-table td, .dggui-table th {
+  font-size: 12px;
+}
+
+.dggui-table.cell-border td {
+  padding: 7px 10px;
+}
+
+.dggui-link.dggui-icon-btn {
+  color: #7491ff;
+  font-size: 12px;
+}
+
+.dggui-link.dggui-icon-btn .iconfont {
+  font-size: 13px;
+}
+
+.mark {
+  color: #f8813f;
+}
+
+.dataTables_wrapper .dataTables_processing {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  background-image: url(./images/loading-0.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 11;
+  font-size: 0;
+}
+
+.dataTables_scrollHeadInner {
+  min-width: 100%;
+}
+
+.dataTables_scrollHeadInner table {
+  min-width: 100%;
+}
+
+.table-menu {
+  position: absolute;
+  width: 160px;
+  padding: 10px;
+  background-color: #eee;
+  border: 1px #ebebeb solid;
+  -webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.table-menu label {
+  display: block;
+  line-height: 20px;
+}
+
+.table-menu label input {
+  margin-right: 5px;
+}
+
+.dggui-opt-td .dggui-link {
+  display: inline-block;
+  margin: 0 4px 0 5px;
+  position: relative;
+}
+
+.dggui-opt-td .dggui-link:after {
+  content: '';
+  position: absolute;
+  left: -5px;
+  top: 50%;
+  margin-top: -5px;
+  display: block;
+  width: 1px;
+  height: 10px;
+  background-color: #b7b7b7;
+}
+
+.dggui-opt-td .dggui-link:first-child {
+  margin-left: 0;
+  border-left: 0;
+}
+
+.dggui-opt-td .dggui-link:first-child:after {
+  display: none;
+}
+
+.dggui-opt-td .dggui-link:last-child {
+  margin-right: 0;
+}
+
+.dggui-table tbody td {
+  border-left: 0;
+  border-right: 0;
+}
+
+.dggui-tree {
+  position: relative;
+}
+
+.dggui-tree.ztree {
+  padding: 5px 5px 5px 20px;
+}
+
+.dggui-tree.ztree li span.button.ico_open, .dggui-tree.ztree li span.button.noline_open, .dggui-tree.ztree li span.button.noline_close, .dggui-tree.ztree li span.button.ico_docu, .dggui-tree.ztree li span.button.ico_close, .dggui-tree.ztree li span.button.noline_docu {
+  position: absolute;
+  z-index: 1;
+  left: -20px;
+}
+
+.dggui-tree.ztree li span.button.noline_close {
+  height: 30px;
+  background: transparent;
+}
+
+.dggui-tree.ztree li span.button.noline_close:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -5px;
+  display: block;
+  border-style: solid;
+  border-width: 4px 0 4px 4px;
+  border-color: transparent transparent transparent #333;
+}
+
+.dggui-tree.ztree li span.button.noline_open {
+  background: transparent;
+  height: 30px;
+}
+
+.dggui-tree.ztree li span.button.noline_open:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -3px;
+  margin-left: -4px;
+  display: block;
+  border-style: solid;
+  border-width: 4px 4px 0 4px;
+  border-color: #333 transparent transparent transparent;
+}
+
+.dggui-tree.ztree li {
+  position: relative;
+  overflow: visible;
+}
+
+.dggui-tree.ztree li a {
+  height: auto;
+  padding: 5px 30px 5px 5px;
+  line-height: 20px;
+  display: block;
+  white-space: normal;
+}
+
+.dggui-tree.ztree li a.activeNode, .dggui-tree.ztree li a.curSelectedNode {
+  opacity: 1;
+  padding-top: 5px;
+  border: 0;
+  background: #ebebeb;
+  height: auto;
+}
+
+.dggui-tree.ztree li a.hoverNode {
+  z-index: 2;
+  position: relative;
+}
+
+.dggui-tree.ztree li span {
+  position: relative;
+  line-height: 20px;
+}
+
+.dggui-tree.ztree li span.node_name {
+  display: block;
+}
+
+.dggui-tree .dggui-tree-dot {
+  position: absolute;
+  right: 5px;
+  top: 0;
+}
+
+.dggui-tree .dggui-tree-dot i {
+  display: block;
+  float: left;
+  width: 4px;
+  height: 4px;
+  border-radius: 4px !important;
+  background: #999;
+  margin: 13px 2px;
+  padding: 0;
+}
+
+.dggui-tree.ztree li span.button.chk {
+  position: absolute;
+  top: 8px;
+  left: 3px;
+}
+
+.dggui-tree.ztree li span.button.chk + a {
+  margin-left: 18px;
+}
+
+.dggui-tree-down {
+  position: absolute;
+  top: 30px;
+  right: -5px;
+  width: 110px;
+  -webkit-box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.1);
+}
+
+.dggui-tree-down .arrows {
+  display: block;
+  position: absolute;
+  right: 15px;
+  top: -4px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 4px 4px 4px;
+  border-color: transparent transparent #fff transparent;
+}
+
+.dggui-tree-down .dggui-tree-list {
+  background: #fff;
+  padding: 8px 12px;
+  border-radius: 2px;
+}
+
+.dggui-tree-down .dggui-tree-list span {
+  display: block;
+  line-height: 25px;
+  cursor: pointer;
+}
+
+.dggui-tree-down .dggui-tree-list span.edit {
+  width: 100%;
+  height: auto;
+  line-height: 20px;
+  background: #fff;
+}
+
+.dggui-tree-down .dggui-tree-list span:hover {
+  color: #ff8b4c;
+}
+
+.dggui-tree-down .dggui-tree-list a {
+  display: block;
+  line-height: 25px;
+  cursor: pointer;
+  background: transparent;
+}
+
+.dggui-tree-down .dggui-tree-list a:hover {
+  color: #ff8b4c;
+}
+
+.wid120 {
+  width: 120px !important;
+}
+
+.dggui-table-info.dggui-table-auto tbody td select, .dggui-table-info.dggui-table-auto tbody td input {
+  max-width: inherit;
+}
+
+.dggui-info {
+  display: block;
+  padding: 2px 10px;
+  margin: 10px 0;
+  background-color: #fff3ed;
+  line-height: 24px;
+  color: #ff8b4c;
+}
+
+.dggui-info .iconfont {
+  font-size: 15px;
+}
+
+.dggui-complex-table {
+  width: 100%;
+  border: 1px #ebebeb solid;
+  margin-bottom: 20px;
+}
+
+.dggui-complex-table.fold thead th .fold-table:before, .dggui-complex-table.fold thead th .fold-table:after {
+  border-width: 5px 4px 0 4px;
+}
+
+.dggui-complex-table.fold thead th .fold-table:before {
+  border-color: #999 transparent transparent transparent;
+}
+
+.dggui-complex-table.fold thead th .fold-table:after {
+  margin-top: -3px;
+  border-color: #F2F2F2 transparent transparent transparent;
+}
+
+.dggui-complex-table thead:first-child th {
+  border-top: 0;
+}
+
+.dggui-complex-table thead th {
+  position: relative;
+  padding: 11px 20px;
+  background-color: #F2F2F2;
+  line-height: 20px;
+  border-bottom: 1px #ebebeb solid;
+  border-top: 1px #ebebeb solid;
+  text-align: left;
+}
+
+.dggui-complex-table thead th .fold-table {
+  position: relative;
+  float: right;
+  padding-right: 12px;
+  font-size: 12px;
+  color: #999;
+  font-weight: normal;
+}
+
+.dggui-complex-table thead th .fold-table:before, .dggui-complex-table thead th .fold-table:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -2px;
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 4px 5px 4px;
+}
+
+.dggui-complex-table thead th .fold-table:before {
+  border-color: transparent transparent #999 transparent;
+}
+
+.dggui-complex-table thead th .fold-table:after {
+  margin-top: -1px;
+  border-color: transparent transparent #F2F2F2 transparent;
+}
+
+.dggui-complex-table tbody td {
+  padding: 20px;
+  vertical-align: top;
+  border-bottom: 1px #ebebeb dashed;
+}
+
+.dggui-complex-table tbody td.dggui-opt-td {
+  font-size: 0;
+  white-space: nowrap;
+}
+
+.dggui-complex-table tbody td.dggui-opt-td .dggui-link {
+  font-size: 12px;
+}
+
+.dggui-complex-table tbody td.check-th {
+  position: relative;
+}
+
+.dggui-complex-table tbody td.check-th input[type="checkbox"] {
+  position: absolute;
+  left: 20px;
+  top: 26px;
+}
+
+.dggui-complex-table tbody td.check-th input[type="checkbox"] + * {
+  margin-left: 25px;
+}
+
+.dggui-complex-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.dggui-page {
+  text-align: right;
+}
+
+.dggui-page input {
+  min-width: auto;
+}
+
+.dggui-table-form {
+  width: 100%;
+  border: 1px #ebebeb solid;
+}
+
+.dggui-table-form + .dggui-table-form {
+  margin-top: 20px;
+}
+
+.dggui-table-form th {
+  text-align: right;
+  font-weight: normal;
+  width: 120px;
+  white-space: nowrap;
+}
+
+.dggui-table-form td {
+  text-align: left;
+  word-break: break-all;
+}
+
+.dggui-table-form td:last-child {
+  border-right: 0;
+}
+
+.dggui-table-form th, .dggui-table-form td {
+  line-height: 20px;
+  padding: 7px 10px;
+  border-right: 1px #ebebeb dotted;
+  background-color: #fff;
+}
+
+.dggui-table-form tr:nth-child(2n) th, .dggui-table-form tr:nth-child(2n) td {
+  background-color: #F2F5F7;
+}
+/*# sourceMappingURL=element.css.map */

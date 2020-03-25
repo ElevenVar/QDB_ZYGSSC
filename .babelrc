@@ -1,0 +1,18 @@
+{
+  "presets": [
+    ["env", {
+      "modules": false,// webpack 就可以分析依赖关系树，并去掉那些未使用的依赖项。此外，它不会导致兼容性问题，因为 webpack 最终会将代码转换为广泛兼容的格式。（摇树优化）
+      "targets": {
+        "browsers": ["> 1%", "last 2 versions", "not ie <= 8"]
+      }
+    }],
+    "stage-2",
+    "es2015",
+  ],
+  "plugins": ["transform-vue-jsx", "transform-runtime"],
+  "env": {
+    "development":{
+      "plugins": ["dynamic-import-node"]
+    }
+  }
+}

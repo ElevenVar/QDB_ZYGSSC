@@ -1,0 +1,26 @@
+/** 富文本编辑器 **/
+.#{$dgg}-dggedit{border-width: 1px; border-style: solid; border-radius: 2px;}
+.#{$dgg}-dggedit-tool{padding: 3px 5px; border-bottom-width: 1px; border-bottom-style: solid; font-size: 0;}
+.dggedit-tool-fixed{position: fixed; top: 0; border-top: 1px solid $gray-800;}
+.#{$dgg}-dggedit-tool .dggedit-tool-mid,
+.#{$dgg}-dggedit-tool .#{$dgg}-icon{display: inline-block; vertical-align: middle; text-align: center; font-size: 14px;}
+.#{$dgg}-dggedit-tool .#{$dgg}-icon{position: relative; width: 32px; height: 30px; line-height: 30px; margin: 3px 5px; border-radius: 2px; color: $gray-400; cursor: pointer; border-radius: 2px;}
+.#{$dgg}-dggedit-tool .#{$dgg}-icon:hover{color: $gray-110;}
+.#{$dgg}-dggedit-tool .#{$dgg}-icon:active{color: $black;}
+.#{$dgg}-dggedit-tool .dggedit-tool-active{background-color: $gray-800; color: $black;}
+.#{$dgg}-dggedit-tool .#{$dgg}-disabled,
+.#{$dgg}-dggedit-tool .#{$dgg}-disabled:hover{color: $gray-700; cursor: not-allowed;}
+.#{$dgg}-dggedit-tool .dggedit-tool-mid{width: 1px; height: 18px; margin: 0 10px; background-color: $gray-700;}
+
+.dggedit-tool-html{width: 50px !important; font-size: 30px !important;}
+.dggedit-tool-b,
+.dggedit-tool-code,
+.dggedit-tool-help{font-size: 16px !important;}
+.dggedit-tool-d,
+.dggedit-tool-unlink,
+.dggedit-tool-face,
+.dggedit-tool-image{font-size: 18px !important;}
+.dggedit-tool-image input{position: absolute; font-size: 0; left: 0; top: 0; width: 100%; height: 100%; opacity: 0.01; filter: Alpha(opacity=1); cursor: pointer;}
+
+.#{$dgg}-dggedit-iframe iframe{display: block; width: 100%;}
+#LAY_dggedit_code{overflow: hidden;}

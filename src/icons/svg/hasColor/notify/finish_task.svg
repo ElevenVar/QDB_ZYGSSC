@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <g id="页面1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="通知icon" transform="translate(-66.000000, -743.000000)">
+            <g id="finish_task" transform="translate(66.000000, 743.000000)">
+                <circle id="椭圆形" fill="#E7E8EB" cx="18" cy="18" r="18"></circle>
+                <polyline id="路径" stroke="#979797" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" transform="translate(18.508761, 16.925453) rotate(-315.000000) translate(-18.508761, -16.925453) " points="21.0915962 11.4253033 21.508761 22.4256017 15.508761 22.4256017"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

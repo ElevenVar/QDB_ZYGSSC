@@ -1,0 +1,28 @@
+@import "variable";
+/** 基础通用 **/
+* {outline: none;}
+.#{$dgg}-border-box, .#{$dgg}-border-box *{box-sizing:border-box;}
+/* 消除第三方ui可能造成的冲突 */
+.#{$dgg}-box, .#{$dgg}-box *{box-sizing:content-box;}
+.#{$dgg}-clear{
+  clear:both; *zoom:1;
+  &:after{content:'\20'; clear:both; *zoom:1; display:block; height:0;}
+  }
+.#{$dgg}-inline{position:relative; display:inline-block; *display:inline; *zoom:1; vertical-align:middle;}
+/* 三角形 */
+.#{$dgg}-edge{position:relative; display:inline-block; vertical-align:middle; width:0; height:0; border-width:6px; border-style:dashed; border-color:transparent; overflow:hidden;}
+.#{$dgg}-edge-top{top:-4px; border-bottom-color:#999; border-bottom-style:solid;}
+.#{$dgg}-edge-right{border-left-color:#999; border-left-style:solid;}
+.#{$dgg}-edge-bottom{top:2px; border-top-color:#999; border-top-style:solid;}
+.#{$dgg}-edge-left{border-right-color:#999; border-right-style:solid;}
+/* 单行溢出省略 */
+.#{$dgg}-elip{text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
+/* 屏蔽选中 */
+.#{$dgg}-unselect, .#{$dgg}-icon, .#{$dgg}-disabled{-moz-user-select:none; -webkit-user-select:none; -ms-user-select:none;}
+/* 禁用 */
+.#{$dgg}-disabled, .#{$dgg}-disabled:hover{color:#d2d2d2 !important; cursor:not-allowed !important;}
+/* 纯圆角 */
+.#{$dgg}-circle{border-radius:100%;}
+.#{$dgg}-show{display:block !important;}
+.#{$dgg}-hide{display:none !important;}
+

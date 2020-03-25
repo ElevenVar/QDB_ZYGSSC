@@ -1,0 +1,119 @@
+/** 表单 **/
+.#{$dgg}-input, .#{$dgg}-textarea, .#{$dgg}-select{height: 38px; line-height: 1.3; line-height: 38px\9; border-width: 1px; border-style: solid; background-color: $white; border-radius: 2px;}
+.#{$dgg}-input::-webkit-input-placeholder,
+.#{$dgg}-textarea::-webkit-input-placeholder,
+.#{$dgg}-select::-webkit-input-placeholder{line-height: 1.3;}
+.#{$dgg}-input, .#{$dgg}-textarea{display: block; width: 100%; padding-left: 10px;}
+.#{$dgg}-input:hover, .#{$dgg}-textarea:hover{border-color: $gray-700 !important;}
+.#{$dgg}-input:focus, .#{$dgg}-textarea:focus{border-color: $gray-610 !important;}
+.#{$dgg}-textarea{position: relative; min-height: 100px; height: auto; line-height: 20px; padding: 6px 10px; resize: vertical;}
+.#{$dgg}-select{padding: 0 10px;}
+.#{$dgg}-form select,
+.#{$dgg}-form input[type=checkbox],
+.#{$dgg}-form input[type=radio]{display: none;}
+.#{$dgg}-form *[lay-ignore]{display: initial;}
+
+.#{$dgg}-form-item{margin-bottom: 15px; clear: both; *zoom: 1;}
+.#{$dgg}-form-item:after{content:'\20'; clear: both; *zoom: 1; display: block; height:0;}
+.#{$dgg}-form-label{position: relative; float: left; display: block; padding: 9px 15px;  width: 80px; font-weight: 400; line-height: 20px; text-align: right;}
+.#{$dgg}-form-label-col{display: block; float: none; padding: 9px 0; line-height: 20px; text-align: left;}
+.#{$dgg}-form-item .#{$dgg}-inline{margin-bottom: 5px; margin-right: 10px;}
+.#{$dgg}-input-block, .#{$dgg}-input-inline{position: relative;}
+.#{$dgg}-input-block{margin-left: 110px; min-height: 36px;}
+.#{$dgg}-input-inline{display: inline-block; vertical-align: middle;}
+.#{$dgg}-form-item .#{$dgg}-input-inline{float: left; width: 190px; margin-right: 10px;}
+.#{$dgg}-form-text .#{$dgg}-input-inline{width: auto;}
+
+/* 分割块 */.#{$dgg}-form-mid{position: relative; float: left; display: block; padding: 9px 0 !important; line-height: 20px; margin-right: 10px;}
+/* 警告域 */.#{$dgg}-form-danger:focus
+         ,.#{$dgg}-form-danger+.#{$dgg}-form-select .#{$dgg}-input{border-color: $red !important;}
+
+
+/* 下拉选择 */.#{$dgg}-form-select{position: relative;}
+.#{$dgg}-form-select .#{$dgg}-input{padding-right: 30px; cursor: pointer;}
+.#{$dgg}-form-select .#{$dgg}-edge{position: absolute; right: 10px; top: 50%; margin-top: -3px; cursor: pointer; border-width: 6px; border-top-color: $gray-600; border-top-style: solid; transition: all .3s; -webkit-transition: all .3s;}
+.#{$dgg}-form-select dl{display: none; position: absolute; left: 0; top: 42px; padding: 5px 0; z-index: 899; min-width: 100%; border: 1px solid $gray-700; max-height: 300px; overflow-y: auto; background-color: $white; border-radius: 2px; box-shadow: 0 2px 4px rgba(0,0,0,.12); box-sizing: border-box;}
+.#{$dgg}-form-select dl dt,
+.#{$dgg}-form-select dl dd{padding: 0 10px; line-height: 36px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.#{$dgg}-form-select dl dt{font-size: 12px; color: $gray-430;}
+.#{$dgg}-form-select dl dd{cursor: pointer;}
+.#{$dgg}-form-select dl dd:hover{background-color: $gray-910; -webkit-transition: .5s all; transition: .5s all;}
+.#{$dgg}-form-select .#{$dgg}-select-group dd{padding-left: 20px;}
+.#{$dgg}-form-select dl dd.#{$dgg}-select-tips{padding-left: 10px !important; color: $gray-430;}
+.#{$dgg}-form-select dl dd.#{$dgg}-this{background-color: $green-100; color: $white;}
+.#{$dgg}-form-select dl dd.#{$dgg}-disabled{background-color: $white;}
+.#{$dgg}-form-selected dl{display: block;}
+.#{$dgg}-form-selected .#{$dgg}-edge{margin-top: -9px; -webkit-transform:rotate(180deg); transform: rotate(180deg);}
+.#{$dgg}-form-selected .#{$dgg}-edge{margin-top: -3px\0; }
+:root .#{$dgg}-form-selected .#{$dgg}-edge{margin-top: -9px\0/IE9;}
+.#{$dgg}-form-selectup dl{top: auto; bottom: 42px;}
+.#{$dgg}-select-none{margin: 5px 0; text-align: center; color: $gray-430;}
+
+.#{$dgg}-select-disabled .#{$dgg}-disabled{border-color: $gray-830 !important;}
+.#{$dgg}-select-disabled .#{$dgg}-edge{border-top-color: $gray-700}
+
+/* 复选框 */.#{$dgg}-form-checkbox{position: relative; display: inline-block; vertical-align: middle; height: 30px; line-height: 30px; margin-right: 10px; padding-right: 30px; background-color: $white; cursor: pointer; font-size: 0;  -webkit-transition: .1s linear; transition: .1s linear; box-sizing: border-box;}
+.#{$dgg}-form-checkbox:hover{}
+.#{$dgg}-form-checkbox *{display: inline-block; vertical-align: middle;}
+.#{$dgg}-form-checkbox span{padding: 0 10px; height: 100%; font-size: 14px; border-radius: 2px 0 0 2px; background-color: $gray-700; color: $white; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.#{$dgg}-form-checkbox:hover span{background-color: $gray-600;}
+.#{$dgg}-form-checkbox i{position: absolute; right: 0; top: 0; width: 30px; height: 28px; border: 1px solid $gray-700; border-left: none; border-radius: 0 2px 2px 0; color: $white; font-size: 20px; text-align: center;}
+.#{$dgg}-form-checkbox:hover i{border-color: $gray-600; color: $gray-600;}
+.#{$dgg}-form-checked, .#{$dgg}-form-checked:hover{border-color: $green-100;}
+.#{$dgg}-form-checked span, .#{$dgg}-form-checked:hover span{background-color: $green-100;}
+.#{$dgg}-form-checked i, .#{$dgg}-form-checked:hover i{color: $green-100;}
+.#{$dgg}-form-item .#{$dgg}-form-checkbox{margin-top: 4px;}
+
+/* 复选框-原始风格 */.#{$dgg}-form-checkbox[lay-skin="primary"]{height: auto!important; line-height: normal!important; min-width: 18px; min-height: 18px; border: none!important; margin-right: 0; padding-left: 28px; padding-right: 0; background: none;}
+.#{$dgg}-form-checkbox[lay-skin="primary"] span{padding-left: 0; padding-right: 15px; line-height: 18px; background: none; color: $gray-300;}
+.#{$dgg}-form-checkbox[lay-skin="primary"] i{right: auto; left: 0; width: 16px; height: 16px; line-height: 16px; border: 1px solid $gray-700; font-size: 12px; border-radius: 2px; background-color: $white; -webkit-transition: .1s linear; transition: .1s linear;}
+.#{$dgg}-form-checkbox[lay-skin="primary"]:hover i{border-color: $green-100; color: $white;}
+.#{$dgg}-form-checked[lay-skin="primary"] i{border-color: $green-100; background-color: $green-100; color: $white;}
+.#{$dgg}-checkbox-disbaled[lay-skin="primary"] span{background: none!important; color: $gray-600;}
+.#{$dgg}-checkbox-disbaled[lay-skin="primary"]:hover i{border-color: $gray-700;}
+.#{$dgg}-form-item .#{$dgg}-form-checkbox[lay-skin="primary"]{margin-top: 10px;}
+
+/* 复选框-开关风格 */.#{$dgg}-form-switch{position: relative; display: inline-block; vertical-align: middle; height: 22px; line-height: 22px; min-width: 35px; padding: 0 5px; margin-top: 8px; border: 1px solid $gray-700; border-radius: 20px; cursor: pointer; background-color: $white; -webkit-transition: .1s linear; transition: .1s linear;}
+.#{$dgg}-form-switch i{position: absolute; left: 5px; top: 3px; width: 16px; height: 16px; border-radius: 20px; background-color: $gray-700; -webkit-transition: .1s linear; transition: .1s linear;}
+.#{$dgg}-form-switch em{position: relative; top: 0; width: 25px; margin-left: 21px; padding: 0!important; text-align: center!important; color: $gray-430!important; font-style: normal!important; font-size: 12px;}
+.#{$dgg}-form-onswitch{border-color: $green-100; background-color: $green-100;}
+.#{$dgg}-form-onswitch i{left: 100%; margin-left: -21px; background-color: $white;}
+.#{$dgg}-form-onswitch em{margin-left: 5px; margin-right: 21px; color: $white!important;}
+
+.#{$dgg}-checkbox-disbaled{border-color: $gray-800 !important;}
+.#{$dgg}-checkbox-disbaled span{background-color: $gray-800 !important;}
+.#{$dgg}-checkbox-disbaled i{border-color: $gray-800 !important;}
+.#{$dgg}-checkbox-disbaled:hover i{color: $white !important;}
+
+/* 单选框 */
+*[lay-radio]{display: none;}
+.#{$dgg}-form-radio{display: inline-block; vertical-align: middle; line-height: 28px; margin: 6px 10px 0 0; padding-right: 10px; cursor: pointer; font-size: 0;}
+.#{$dgg}-form-radio *{display: inline-block; vertical-align: middle; font-size: 14px;}
+.#{$dgg}-form-radio>i{margin-right: 8px; font-size: 22px; color: $gray-600;}
+.#{$dgg}-form-radioed>i,.#{$dgg}-form-radio>i:hover{color: $green-100;}
+.#{$dgg}-radio-disbaled>i{color: $gray-800 !important;}
+
+/* 表单方框风格 */.#{$dgg}-form-pane .#{$dgg}-form-label{width: 110px; padding: 8px 15px; height: 38px; line-height: 20px; border-width: 1px; border-style: solid; border-radius: 2px 0 0 2px; text-align: center; background-color: $gray-920; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; box-sizing: border-box;}
+.#{$dgg}-form-pane .#{$dgg}-input-inline{margin-left: -1px;}
+.#{$dgg}-form-pane .#{$dgg}-input-block{margin-left: 110px; left: -1px;}
+.#{$dgg}-form-pane .#{$dgg}-input{border-radius: 0 2px 2px 0;}
+.#{$dgg}-form-pane .#{$dgg}-form-text .#{$dgg}-form-label{float: none; width: 100%; border-radius: 2px; box-sizing: border-box; text-align: left;}
+.#{$dgg}-form-pane .#{$dgg}-form-text .#{$dgg}-input-inline{display: block; margin: 0; top: -1px; clear: both;}
+.#{$dgg}-form-pane .#{$dgg}-form-text .#{$dgg}-input-block{margin: 0; left: 0; top: -1px;}
+.#{$dgg}-form-pane .#{$dgg}-form-text .#{$dgg}-textarea{min-height: 100px; border-radius: 0 0 2px 2px;}
+.#{$dgg}-form-pane .#{$dgg}-form-checkbox{margin: 4px 0 4px 10px;}
+.#{$dgg}-form-pane .#{$dgg}-form-switch,
+.#{$dgg}-form-pane .#{$dgg}-form-radio{margin-top: 6px; margin-left: 10px; }
+.#{$dgg}-form-pane .#{$dgg}-form-item[pane]{position: relative; border-width: 1px; border-style: solid;}
+.#{$dgg}-form-pane .#{$dgg}-form-item[pane] .#{$dgg}-form-label{position: absolute; left: 0; top: 0; height: 100%; border-width: 0px; border-right-width: 1px;}
+.#{$dgg}-form-pane .#{$dgg}-form-item[pane] .#{$dgg}-input-inline{margin-left: 110px;}
+
+/** 表单响应式 **/
+@media screen and (max-width: 450px) {
+  .#{$dgg}-form-item .#{$dgg}-form-label{text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
+  .#{$dgg}-form-item .#{$dgg}-inline{display: block; margin-right: 0; margin-bottom: 20px; clear: both;}
+  .#{$dgg}-form-item .#{$dgg}-inline:after{content:'\20'; clear:both; display:block; height:0;}
+  .#{$dgg}-form-item .#{$dgg}-input-inline{display: block; float: none; left: -3px; width: auto; margin: 0 0 10px 112px; }
+  .#{$dgg}-form-item .#{$dgg}-input-inline+.#{$dgg}-form-mid{margin-left: 110px; top: -5px; padding: 0;}
+  .#{$dgg}-form-item .#{$dgg}-form-checkbox{margin-right: 5px; margin-bottom: 5px;}
+}

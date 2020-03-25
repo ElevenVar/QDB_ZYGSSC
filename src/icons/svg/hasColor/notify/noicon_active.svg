@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>icon_nodata_active</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="通知icon" transform="translate(-1489.000000, -253.000000)">
+            <g id="icon_nodata_active" transform="translate(1489.000000, 253.000000)">
+                <g id="编组-2复制-29">
+                    <circle id="椭圆形" fill="#D1EFF9" cx="18" cy="18" r="18"></circle>
+                    <polygon id="矩形备份" stroke="#410000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" points="10 15.2638091 13.5555556 12 22.4444444 12 26 15.2638091 26 23.2638091 10 23.2638091"></polygon>
+                    <path d="M10,15.6717852 L16.2222222,15.6717852 C16.2222222,16.6536248 17.0181604,17.449563 18,17.449563 C18.9818396,17.449563 19.7777778,16.6536248 19.7777778,15.6717852 L26,15.6717852" id="路径备份" stroke="#410000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,36 @@
+/** Tab选项卡 **/
+.#{$dgg}-tab{margin: 10px 0; text-align: left !important;}
+.#{$dgg}-tab[overflow]>.#{$dgg}-tab-title{overflow: hidden;}
+.#{$dgg}-tab-title{position: relative; left: 0; height: 40px; white-space: nowrap; font-size: 0; border-bottom-width: 1px; border-bottom-style: solid; transition: all .2s; -webkit-transition: all .2s;}
+.#{$dgg}-tab-title li{display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; font-size: 14px; transition: all .2s; -webkit-transition: all .2s;}
+.#{$dgg}-tab-title li{position: relative; line-height: 40px; min-width: 65px; padding: 0 15px; text-align: center; cursor: pointer;}
+.#{$dgg}-tab-title li a{display: block;}
+.#{$dgg}-tab-title .#{$dgg}-this{color: $black;}
+
+.#{$dgg}-tab-title .#{$dgg}-this:after{position: absolute; left:0; top: 0; content: ''; width:100%; height: 41px; border-width: 1px; border-style: solid; border-bottom-color: $white; border-radius: 2px 2px 0 0; box-sizing: border-box; pointer-events: none;}
+.#{$dgg}-tab-bar{position: absolute; right: 0; top: 0; z-index: 10; width: 30px; height: 39px; line-height: 39px; border-width: 1px; border-style: solid; border-radius: 2px; text-align: center; background-color: $white; cursor: pointer;}
+.#{$dgg}-tab-bar .#{$dgg}-icon{position: relative; display: inline-block; top: 3px; transition: all .3s; -webkit-transition: all .3s;}
+.#{$dgg}-tab-item{display: none;}
+.#{$dgg}-tab-more{padding-right: 30px; height: auto !important; white-space: normal !important;}
+.#{$dgg}-tab-more li.#{$dgg}-this:after{border-bottom-color: $gray-800; border-radius: 2px;}
+.#{$dgg}-tab-more .#{$dgg}-tab-bar .#{$dgg}-icon{top: -2px; top: 3px\0; -webkit-transform: rotate(180deg); transform: rotate(180deg);}
+:root .#{$dgg}-tab-more .#{$dgg}-tab-bar .#{$dgg}-icon{top: -2px\0/IE9;}
+
+.#{$dgg}-tab-content{padding: 10px;}
+
+/* Tab关闭 */.#{$dgg}-tab-title li .#{$dgg}-tab-close{position: relative; display: inline-block; width: 18px; height: 18px; line-height: 20px; margin-left: 8px; top: 1px; text-align: center; font-size: 14px; color: $gray-600; transition: all .2s; -webkit-transition: all .2s;}
+.#{$dgg}-tab-title li .#{$dgg}-tab-close:hover{border-radius: 2px; background-color: $red; color: $white;}
+
+/* Tab简洁风格 */.#{$dgg}-tab-brief > .#{$dgg}-tab-title .#{$dgg}-this{color: $green;}
+.#{$dgg}-tab-brief > .#{$dgg}-tab-title .#{$dgg}-this:after
+,.#{$dgg}-tab-brief > .#{$dgg}-tab-more li.#{$dgg}-this:after{border: none; border-radius: 0; border-bottom: 2px solid $green-100;}
+.#{$dgg}-tab-brief[overflow] > .#{$dgg}-tab-title .#{$dgg}-this:after{top: -1px;}
+
+/* Tab卡片风格 */.#{$dgg}-tab-card{border-width: 1px; border-style: solid; border-radius: 2px; box-shadow: 0 2px 5px 0 rgba(0,0,0,.1);}
+.#{$dgg}-tab-card > .#{$dgg}-tab-title{ background-color: $gray-910;}
+.#{$dgg}-tab-card > .#{$dgg}-tab-title li{margin-right: -1px; margin-left: -1px;}
+.#{$dgg}-tab-card > .#{$dgg}-tab-title .#{$dgg}-this{background-color: $white;     }
+.#{$dgg}-tab-card > .#{$dgg}-tab-title .#{$dgg}-this:after{border-top: none; border-width: 1px; border-bottom-color: $white;}
+.#{$dgg}-tab-card > .#{$dgg}-tab-title .#{$dgg}-tab-bar{height: 40px; line-height: 40px; border-radius: 0; border-top: none; border-right: none;}
+.#{$dgg}-tab-card > .#{$dgg}-tab-more .#{$dgg}-this{background: none; color: $green-100;}
+.#{$dgg}-tab-card > .#{$dgg}-tab-more .#{$dgg}-this:after{border: none;}

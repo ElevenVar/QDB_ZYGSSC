@@ -1,0 +1,15 @@
+/** 树组件（重写中） **/
+.#{$dgg}-tree{line-height: 26px;}
+.#{$dgg}-tree li{text-overflow: ellipsis; overflow:hidden; white-space: nowrap;}
+.#{$dgg}-tree li a,
+.#{$dgg}-tree li .#{$dgg}-tree-spread{display: inline-block; vertical-align: top; height: 26px; *display: inline; *zoom:1; cursor: pointer;}
+.#{$dgg}-tree li a{font-size: 0;}
+.#{$dgg}-tree li a i{font-size: 16px;}
+.#{$dgg}-tree li a cite{padding: 0 6px; font-size: 14px; font-style: normal;}
+.#{$dgg}-tree li i{padding-left: 6px; color: $gray-100; -moz-user-select: none;}
+.#{$dgg}-tree li .#{$dgg}-tree-check{font-size: 13px;}
+.#{$dgg}-tree li .#{$dgg}-tree-check:hover{color: #009E94;}
+.#{$dgg}-tree li ul{display: none; margin-left: 20px;}
+.#{$dgg}-tree li .#{$dgg}-tree-enter{line-height: 24px; border: 1px dotted $black;}
+.#{$dgg}-tree-drag{display: none; position: absolute; left: -666px; top: -666px; background-color: $gray-910; padding: 5px 10px; border: 1px dotted $black; white-space: nowrap}
+.#{$dgg}-tree-drag i{padding-right: 5px;}

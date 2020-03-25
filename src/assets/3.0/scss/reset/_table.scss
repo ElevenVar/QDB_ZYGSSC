@@ -1,0 +1,153 @@
+/** 表格 **/
+.#{$dgg}-table{width: 100%; margin: 10px 0; background-color: $white; color: $gray-300;}
+//.#{$dgg}-table tr{transition: all .3s; -webkit-transition: all .3s;}
+.#{$dgg}-table th{text-align: left; font-weight: 400;}
+
+.#{$dgg}-table thead tr,
+.#{$dgg}-table-header,
+.#{$dgg}-table-tool,
+.#{$dgg}-table-total,
+.#{$dgg}-table-total tr,
+.#{$dgg}-table-patch,
+.#{$dgg}-table-mend,
+.#{$dgg}-table[lay-even] tr:nth-child(even),
+.#{$dgg}-table tbody tr:hover,
+.#{$dgg}-table-hover,
+.#{$dgg}-table-click{background-color: $gray-910;}
+
+.#{$dgg}-table th,
+.#{$dgg}-table td,
+.#{$dgg}-table[lay-skin="line"],
+.#{$dgg}-table[lay-skin="row"],
+.#{$dgg}-table-view,
+.#{$dgg}-table-tool,
+.#{$dgg}-table-header,
+.#{$dgg}-table-col-set,
+.#{$dgg}-table-total,
+.#{$dgg}-table-page,
+.#{$dgg}-table-fixed-r,
+.#{$dgg}-table-tips-main,
+.#{$dgg}-table-grid-down{border-width: 1px; border-style: solid; border-color: $gray-810;}
+
+.#{$dgg}-table th, .#{$dgg}-table td{position: relative; padding: 9px 15px; min-height: 20px; line-height: 20px;  font-size: 14px;}
+
+.#{$dgg}-table[lay-skin="line"] th, .#{$dgg}-table[lay-skin="line"] td{border-width: 0; border-bottom-width: 1px;}
+.#{$dgg}-table[lay-skin="row"] th, .#{$dgg}-table[lay-skin="row"] td{border-width: 0;border-right-width: 1px;}
+.#{$dgg}-table[lay-skin="nob"] th, .#{$dgg}-table[lay-skin="nob"] td{border: none;}
+
+.#{$dgg}-table img{max-width:100px;}
+
+/* 大表格 */.#{$dgg}-table[lay-size="lg"] th,
+         .#{$dgg}-table[lay-size="lg"] td{padding-top: 15px; padding-right: 30px; padding-bottom: 15px; padding-left: 30px;}
+.#{$dgg}-table-view .#{$dgg}-table[lay-size="lg"] .#{$dgg}-table-cell{height: 40px; line-height: 40px;}
+/* 小表格 */.#{$dgg}-table[lay-size="sm"] th,
+         .#{$dgg}-table[lay-size="sm"] td{padding-top: 5px; padding-right: 10px; padding-bottom: 5px; padding-left: 10px; font-size: 12px;}
+.#{$dgg}-table-view .#{$dgg}-table[lay-size="sm"] .#{$dgg}-table-cell{height: 20px; line-height: 20px;}
+
+/* 数据表格 */
+.#{$dgg}-table[lay-data]{display: none;}
+.#{$dgg}-table-box{position: relative; overflow: hidden;}
+.#{$dgg}-table-view{margin: 10px 0;}
+.#{$dgg}-table-view .#{$dgg}-table{position: relative; width: auto; margin: 0;}
+.#{$dgg}-table-view .#{$dgg}-table[lay-skin="line"]{border-width: 0; border-right-width: 1px;}
+.#{$dgg}-table-view .#{$dgg}-table[lay-skin="row"]{border-width: 0; border-bottom-width: 1px;}
+.#{$dgg}-table-view .#{$dgg}-table th,
+.#{$dgg}-table-view .#{$dgg}-table td{padding: 5px 0; border-top: none; border-left: none;}
+.#{$dgg}-table-view .#{$dgg}-table th.#{$dgg}-unselect .#{$dgg}-table-cell span{cursor: pointer;}
+.#{$dgg}-table-view .#{$dgg}-table td{cursor: default;}
+.#{$dgg}-table-view .#{$dgg}-form-checkbox[lay-skin="primary"] i{width: 18px; height: 18px;}
+.#{$dgg}-table-view .#{$dgg}-form-radio{line-height: 0; padding: 0;}
+.#{$dgg}-table-view .#{$dgg}-form-radio>i{margin: 0; font-size: 20px;}
+.#{$dgg}-table-init{position: absolute; left: 0; top: 0; width: 100%; height: 100%; text-align: center; z-index: 110;}
+.#{$dgg}-table-init .#{$dgg}-icon{position: absolute; left: 50%; top: 50%; margin: -15px 0 0 -15px; font-size: 30px; color: $gray-600;}
+.#{$dgg}-table-header{border-width: 0; border-bottom-width: 1px; overflow: hidden;}
+.#{$dgg}-table-header .#{$dgg}-table{margin-bottom: -1px;}
+
+.#{$dgg}-table-tool .#{$dgg}-inline[lay-event]{position: relative; width: 26px; height: 26px; padding: 5px; line-height: 16px; margin-right: 10px; text-align: center; color: $gray-100; border: 1px solid $gray-620; cursor: pointer; -webkit-transition: .5s all; transition: .5s all;}
+.#{$dgg}-table-tool .#{$dgg}-inline[lay-event]:hover{border: 1px solid $gray-430;}
+.#{$dgg}-table-tool-temp{padding-right: 120px;}
+.#{$dgg}-table-tool-self{position: absolute; right: 17px; top: 10px;}
+.#{$dgg}-table-tool .#{$dgg}-table-tool-self .#{$dgg}-inline[lay-event]{margin: 0 0 0 10px;}
+.#{$dgg}-table-tool-panel{position: absolute; top: 29px; left: -1px; padding: 5px 0; min-width: 150px; min-height: 40px; border: 1px solid $gray-700; text-align: left; overflow-y: auto; background-color: $white; box-shadow: 0 2px 4px rgba(0,0,0,.12);}
+.#{$dgg}-table-tool-panel li{padding: 0 10px; line-height: 30px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; -webkit-transition: .5s all; transition: .5s all;}
+.#{$dgg}-table-tool-panel li .#{$dgg}-form-checkbox[lay-skin="primary"]{width: 100%;}
+.#{$dgg}-table-tool-panel li:hover{background-color: $gray-910;}
+.#{$dgg}-table-tool-panel li .#{$dgg}-form-checkbox[lay-skin="primary"]{padding-left: 28px;}
+.#{$dgg}-table-tool-panel li .#{$dgg}-form-checkbox[lay-skin="primary"] i{position: absolute; left: 0; top: 0;}
+.#{$dgg}-table-tool-panel li .#{$dgg}-form-checkbox[lay-skin="primary"] span{padding: 0;}
+.#{$dgg}-table-tool .#{$dgg}-table-tool-self .#{$dgg}-table-tool-panel{left: auto; right: -1px;}
+
+.#{$dgg}-table-col-set{position: absolute; right: 0; top: 0; width: 20px; height: 100%; border-width: 0; border-left-width: 1px; background-color: $white;}
+
+.#{$dgg}-table-sort{width: 10px; height: 20px; margin-left: 5px; cursor: pointer!important;}
+.#{$dgg}-table-sort .#{$dgg}-edge{position: absolute; left: 5px; border-width: 5px;}
+.#{$dgg}-table-sort .#{$dgg}-table-sort-asc{top: 3px; border-top: none; border-bottom-style: solid; border-bottom-color: $gray-500;}
+.#{$dgg}-table-sort .#{$dgg}-table-sort-asc:hover{border-bottom-color: $gray-300;}
+.#{$dgg}-table-sort .#{$dgg}-table-sort-desc{bottom: 5px; border-bottom: none; border-top-style: solid; border-top-color: $gray-500;}
+.#{$dgg}-table-sort .#{$dgg}-table-sort-desc:hover{border-top-color: $gray-300;}
+.#{$dgg}-table-sort[lay-sort="asc"] .#{$dgg}-table-sort-asc{border-bottom-color: $black;}
+.#{$dgg}-table-sort[lay-sort="desc"] .#{$dgg}-table-sort-desc{border-top-color: $black;}
+
+.#{$dgg}-table-cell{height: 28px; line-height: 28px; padding: 0 15px; position: relative; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; box-sizing: border-box;}
+.#{$dgg}-table-cell .#{$dgg}-form-checkbox[lay-skin="primary"]{top: -1px; padding: 0;}
+.#{$dgg}-table-cell .#{$dgg}-table-link{color: #01AAED;}
+
+.laytable-cell-checkbox,
+.laytable-cell-radio,
+.laytable-cell-space,
+.laytable-cell-numbers{padding: 0; text-align: center;}
+
+.#{$dgg}-table-body{position: relative; overflow: auto; margin-right: -1px; margin-bottom: -1px;}
+.#{$dgg}-table-body .#{$dgg}-none{line-height: 26px; padding: 15px; text-align: center; color: $gray-430;}
+.#{$dgg}-table-fixed{position: absolute; left: 0; top: 0; z-index: 101;}
+.#{$dgg}-table-fixed .#{$dgg}-table-body{overflow: hidden;}
+.#{$dgg}-table-fixed-l{box-shadow: 0 -1px 8px rgba(0,0,0,.08);}
+.#{$dgg}-table-fixed-r{left: auto; right: -1px; border-width: 0; border-left-width: 1px; box-shadow: -1px 0 8px rgba(0,0,0,.08);}
+.#{$dgg}-table-fixed-r .#{$dgg}-table-header{position: relative; overflow: visible;}
+.#{$dgg}-table-mend{position: absolute; right: -49px; top: 0; height: 100%; width: 50px;}
+
+.#{$dgg}-table-tool{position: relative; z-index: 890; width: 100%; min-height: 50px; line-height: 30px; padding: 10px 15px; border-width: 0; border-bottom-width: 1px;}
+.#{$dgg}-table-tool .#{$dgg}-btn-container{margin-bottom: -10px;}
+
+.#{$dgg}-table-total{margin-bottom: -1px; border-width: 0; border-top-width: 1px; overflow: hidden;}
+
+
+.#{$dgg}-table-page{position: relative; width: 100%; padding: 7px 7px 0; border-width: 0; border-top-width: 1px; height: 41px; margin-bottom: -1px; font-size: 12px; white-space: nowrap; overflow: hidden;}
+.#{$dgg}-table-page>div{height: 26px;}
+.#{$dgg}-table-page .#{$dgg}-dggpage{margin: 0;}
+.#{$dgg}-table-page .#{$dgg}-dggpage a,
+.#{$dgg}-table-page .#{$dgg}-dggpage span{height: 26px; line-height: 26px; margin-bottom: 10px; border: none; background: none;}
+.#{$dgg}-table-page .#{$dgg}-dggpage a,
+.#{$dgg}-table-page .#{$dgg}-dggpage span.#{$dgg}-dggpage-curr{padding: 0 12px;}
+.#{$dgg}-table-page .#{$dgg}-dggpage span{margin-left: 0; padding: 0;}
+.#{$dgg}-table-page .#{$dgg}-dggpage .#{$dgg}-dggpage-prev{margin-left: -7px!important;}
+.#{$dgg}-table-page .#{$dgg}-dggpage .#{$dgg}-dggpage-curr .#{$dgg}-dggpage-em{left: 0; top: 0; padding: 0;}
+.#{$dgg}-table-page .#{$dgg}-dggpage input,
+.#{$dgg}-table-page .#{$dgg}-dggpage button{height: 26px; line-height: 26px; }
+.#{$dgg}-table-page .#{$dgg}-dggpage input{width: 40px;}
+.#{$dgg}-table-page .#{$dgg}-dggpage button{padding: 0 10px;}
+.#{$dgg}-table-page select{height: 18px;}
+.#{$dgg}-table-view select[lay-ignore]{display: inline-block;}
+
+.#{$dgg}-table-patch .#{$dgg}-table-cell{padding: 0; width: 30px;}
+
+.#{$dgg}-table-edit{position: absolute; left: 0; top: 0; width: 100%; height: 100%; padding: 0 14px 1px; border-radius: 0; box-shadow: 1px 1px 20px rgba(0,0,0,.15)}
+.#{$dgg}-table-edit:focus{border-color: $green-100!important;}
+select.#{$dgg}-table-edit{padding: 0 0 0 10px; border-color: $gray-610;}
+.#{$dgg}-table-view .#{$dgg}-form-switch,
+.#{$dgg}-table-view .#{$dgg}-form-checkbox,
+.#{$dgg}-table-view .#{$dgg}-form-radio{top: 0; margin: 0; box-sizing: content-box;}
+.#{$dgg}-table-view .#{$dgg}-form-checkbox{top: -1px; height: 26px; line-height: 26px;}
+.#{$dgg}-table-view .#{$dgg}-form-checkbox i{height: 26px;}
+
+/* 展开溢出的单元格 */
+.#{$dgg}-table-grid .#{$dgg}-table-cell{overflow: visible;}
+.#{$dgg}-table-grid-down{position: absolute; top: 0; right: 0; width: 26px; height: 100%; padding: 5px 0; border-width: 0; border-left-width: 1px; text-align: center; background-color: $white; color: $gray-430; cursor: pointer;}
+.#{$dgg}-table-grid-down .#{$dgg}-icon{position: absolute; top: 50%; left: 50%; margin: -8px 0 0 -8px;}
+.#{$dgg}-table-grid-down:hover{background-color: $gray-920;}
+
+body .#{$dgg}-table-tips .#{$dgg}-layer-content{background: none; padding: 0; box-shadow: 0 1px 6px rgba(0,0,0,.12);}
+.#{$dgg}-table-tips-main{margin: -44px 0 0 -1px; max-height: 150px; padding: 8px 15px; font-size: 14px; overflow-y: scroll; background-color: $white; color: $gray-300;}
+.#{$dgg}-table-tips-c{position: absolute; right: -3px; top: -13px; width: 20px; height: 20px; padding: 3px; cursor: pointer; background-color: $gray-300; border-radius: 50%; color: $white;}
+.#{$dgg}-table-tips-c:hover{background-color: $gray-400;}
+.#{$dgg}-table-tips-c:before{position: relative; right: -2px;}

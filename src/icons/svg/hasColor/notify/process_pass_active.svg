@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>process_pass_active</title>
+    <desc>Created with Sketch.</desc>
+    <g id="法律生产-企大宝" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="通知icon" transform="translate(-66.000000, -525.000000)">
+            <g id="process_pass_active" transform="translate(66.000000, 525.000000)">
+                <circle id="椭圆形" fill="#D1F5E9" cx="18" cy="18" r="18"></circle>
+                <polyline id="路径" stroke="#01928E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" transform="translate(25.363599, 20.500000) rotate(-315.000000) translate(-25.363599, -20.500000) " points="26.5375835 18 26.7271987 23 24 23"></polyline>
+                <path d="M24.6887323,15.9295017 C23.805905,13.0743027 21.1451922,11 18,11 C14.1340068,11 11,14.1340068 11,18 C11,21.8659932 14.1340068,25 18,25" id="路径" stroke="#01928E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

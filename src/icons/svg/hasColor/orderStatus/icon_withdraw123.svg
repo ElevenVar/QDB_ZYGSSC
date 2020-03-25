@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>icon_withdraw</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="91.784886%" y1="100%" x2="9.08167915%" y2="7.65384382%" id="linearGradient-1">
+            <stop stop-color="#10BBB8" offset="0%"></stop>
+            <stop stop-color="#18DAB1" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="50" height="50" rx="14"></rect>
+        <filter x="-64.0%" y="-50.0%" width="228.0%" height="228.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="7" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="9.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.854901961   0 0 0 0 0.866666667   0 0 0 0 0.901960784  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="订单-办理中订单-产品详情-任务" transform="translate(-1541.000000, -585.000000)">
+            <g id="icon_withdraw" transform="translate(1560.000000, 597.000000)">
+                <g id="矩形复制-15备份">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+                <g id="编组-15" transform="translate(15.000000, 13.000000)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+                    <polyline id="路径" points="3.590891 0.842105263 18.1052632 0.842105263 18.1052632 22.8421053 3.590891 22.8421053"></polyline>
+                    <polyline id="路径" transform="translate(4.473684, 11.842105) rotate(-315.000000) translate(-4.473684, -11.842105) " points="7.15789474 14.5263158 1.78947368 14.5263158 1.78947368 9.15789474"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

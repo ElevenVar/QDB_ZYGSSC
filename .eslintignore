@@ -1,0 +1,10 @@
+build/*.js
+node_modules/
+src/vendor/
+config/*.js
+src/assets
+static/
+src/components/
+src/componentsEl
+src/view/*.md
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>icon_pic</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="15.4998 0.0001 15.4998 2.6671 18.1668 2.6671"></polygon>
+        <filter x="-262.5%" y="-187.5%" width="624.9%" height="624.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="订单-办理中订单-产品详情-文档" transform="translate(-102.000000, -310.000000)">
+            <g id="编组-12" transform="translate(102.000000, 310.000000)">
+                <rect id="矩形" stroke="#979797" fill="#D8D8D8" opacity="0" x="0.5" y="0.5" width="21" height="21"></rect>
+                <g id="编组复制-7" transform="translate(2.000000, 2.000000)">
+                    <path d="M0,2.0001 L0,16.1671 C1.3527075e-16,17.2716695 0.8954305,18.1671 2,18.1671 L16.167,18.1671 C17.2715695,18.1671 18.167,17.2716695 18.167,16.1671 L18.167,3.49552712 C18.167,2.96509415 17.9562863,2.45638632 17.5812136,2.08131356 L16.0857864,0.585886438 C15.7107137,0.210813681 15.2020059,0.0001 14.6715729,0.0001 L2,0.0001 C0.8954305,0.0001 -1.3527075e-16,0.8955305 0,2.0001 Z" id="Fill-2" fill="#FF5533"></path>
+                    <g id="Fill-1">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFF3F1" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <path d="M3.64753228,14.5 L15.5252537,14.5 C16.0775384,14.5 16.5252537,14.0522847 16.5252537,13.5 C16.5252537,13.3244107 16.4790197,13.1519167 16.3912014,12.9998656 L13.121316,7.33828798 C12.8450994,6.86003823 12.2334835,6.69625803 11.7552338,6.97247466 C11.6377586,7.04032332 11.5353169,7.13136522 11.4541425,7.24006018 L8.29202116,11.4742393 C7.96155481,11.916744 7.33493794,12.0075691 6.89243321,11.6771027 C6.79501433,11.6043495 6.71168003,11.51444 6.6465202,11.4117868 L6.03011556,10.4406995 C5.73414076,9.97441912 5.11621087,9.83635919 4.64993052,10.132334 C4.52054323,10.2144635 4.41176361,10.3252326 4.33199226,10.4560869 L2.79368424,12.9794776 C2.50620768,13.4510449 2.65544267,14.0663715 3.12700993,14.353848 C3.28380682,14.4494345 3.46389668,14.5 3.64753228,14.5 Z" id="路径-2" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <g id="页面1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="通知icon" transform="translate(-922.000000, -251.000000)">
+            <g id="task_restart_active" transform="translate(922.000000, 251.000000)">
+                <circle id="椭圆形复制-2" fill="#D1EFF9" cx="18" cy="18" r="18"></circle>
+                <path d="M18.086557,12.0000004 C15.2773291,12.0000004 13,14.2773296 13,17.0865574 C13,19.8957853 15.2773291,22.1731144 18.086557,22.1731144 C20.8957849,22.1731144 23.173114,19.8957853 23.173114,17.0865574 C23.173114,15.7826612 22.6825023,14.5933535 21.8758091,13.6931646 L24.137111,14.7232512" id="路径" stroke="#50577D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" transform="translate(18.568556, 17.086557) scale(-1, 1) rotate(-139.000000) translate(-18.568556, -17.086557) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

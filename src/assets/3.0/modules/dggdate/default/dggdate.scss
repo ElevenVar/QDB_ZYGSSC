@@ -1,0 +1,157 @@
+/**
+
+ @Name: laydata
+ @Author: Bz
+
+ **/
+@import "../../../scss/reset/variable";
+//$dgg:'layui';
+$dggdate:'dggdate';
+html ##{$dgg}css-#{$dggdate}{display: none; position: absolute; width: 1989px;}
+//html #layuicss-laydate{display: none; position: absolute; width: 1989px;}
+/* 初始化 */
+.#{$dgg}-#{$dggdate} *{margin: 0; padding: 0;}
+
+/* 主体结构 */
+.#{$dgg}-#{$dggdate}, .#{$dgg}-#{$dggdate} *{box-sizing: border-box;}
+.#{$dgg}-#{$dggdate}{position: absolute; z-index: 66666666; margin: 5px 0; border-radius: 2px; font-size: 14px; -webkit-animation-duration: 0.3s; animation-duration: 0.3s; -webkit-animation-fill-mode: both; animation-fill-mode: both;}
+.#{$dgg}-#{$dggdate}-main{width: 272px;}
+.#{$dgg}-#{$dggdate}-header *,
+.#{$dgg}-#{$dggdate}-content td,
+.#{$dgg}-#{$dggdate}-list li{transition-duration: .3s; -webkit-transition-duration: .3s;}
+
+@-webkit-keyframes #{$dggdate}-upbit{ /* 微微往上滑入 */
+  from {-webkit-transform: translate3d(0, 20px, 0); opacity: 0.3;}
+  to {-webkit-transform: translate3d(0, 0, 0);  opacity: 1;}
+  }
+@keyframes #{$dggdate}-upbit{
+  from {transform: translate3d(0, 20px, 0);  opacity: 0.3;}
+  to {transform: translate3d(0, 0, 0);  opacity: 1;}
+  }
+.#{$dgg}-#{$dggdate}{-webkit-animation-name: #{$dggdate}-upbit; animation-name: #{$dggdate}-upbit;}
+.#{$dgg}-#{$dggdate}-static{ position: relative; z-index: 0; display: inline-block; margin: 0; -webkit-animation: none; animation: none;}
+
+/* 展开年月列表时 */
+.#{$dggdate}-ym-show .#{$dggdate}-prev-m,
+.#{$dggdate}-ym-show .#{$dggdate}-next-m{display: none !important;}
+.#{$dggdate}-ym-show .#{$dggdate}-prev-y,
+.#{$dggdate}-ym-show .#{$dggdate}-next-y{display: inline-block !important;}
+.#{$dggdate}-ym-show .#{$dggdate}-set-ym span[lay-type="month"]{display: none !important;}
+
+/* 展开时间列表时 */
+.#{$dggdate}-time-show .#{$dgg}-#{$dggdate}-header .#{$dgg}-icon,
+.#{$dggdate}-time-show .#{$dggdate}-set-ym span[lay-type="year"],
+.#{$dggdate}-time-show .#{$dggdate}-set-ym span[lay-type="month"]{display: none !important;}
+
+/* 头部结构 */
+.#{$dgg}-#{$dggdate}-header{position: relative; line-height:30px; padding: 10px 70px 5px;}
+.#{$dgg}-#{$dggdate}-header *{display: inline-block; vertical-align: bottom;}
+.#{$dgg}-#{$dggdate}-header i{position: absolute; top: 10px; padding: 0 5px; color: $dggdate-header-color; font-size: 18px; cursor: pointer;}
+.#{$dgg}-#{$dggdate}-header i.#{$dggdate}-prev-y{left: 15px;}
+.#{$dgg}-#{$dggdate}-header i.#{$dggdate}-prev-m{left: 45px;}
+.#{$dgg}-#{$dggdate}-header i.#{$dggdate}-next-y{right: 15px;}
+.#{$dgg}-#{$dggdate}-header i.#{$dggdate}-next-m{right: 45px;}
+.#{$dggdate}-set-ym{width: 100%; text-align: center; box-sizing: border-box; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
+.#{$dggdate}-set-ym span{padding: 0 5px; cursor: pointer;}
+.#{$dggdate}-time-text{cursor: default !important;}
+
+
+/* 主体结构 */
+.#{$dgg}-#{$dggdate}-content{position: relative; padding: 10px; -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none;}
+.#{$dgg}-#{$dggdate}-content table{border-collapse: collapse; border-spacing: 0;}
+.#{$dgg}-#{$dggdate}-content th,
+.#{$dgg}-#{$dggdate}-content td{width: 36px; height: 30px; padding: 5px; text-align: center;}
+.#{$dgg}-#{$dggdate}-content th{font-weight: 400;}
+.#{$dgg}-#{$dggdate}-content td{position: relative; cursor: pointer;}
+.#{$dggdate}-day-mark{position: absolute; left: 0; top: 0; width: 100%; height: 100%; line-height: 30px; font-size: 12px; overflow: hidden;}
+.#{$dggdate}-day-mark::after{position: absolute; content:''; right: 2px; top: 2px; width: 5px; height: 5px; border-radius: 50%;}
+
+/* 底部结构 */
+.#{$dgg}-#{$dggdate}-footer{position: relative; height: 46px; line-height: 26px; padding: 10px 20px;}
+.#{$dgg}-#{$dggdate}-footer span{margin-right: 15px; display: inline-block; cursor: pointer; font-size: 12px;}
+.#{$dgg}-#{$dggdate}-footer span:hover{color: $dggdate-footer-color;}
+.#{$dggdate}-footer-btns{position: absolute; right: 10px; top: 10px;}
+.#{$dggdate}-footer-btns span{height: 26px; line-height: 26px; margin: 0 0 0 -1px; padding: 0 10px; border: 1px solid $dggdate-footer-border; background-color: #fff;  white-space: nowrap; vertical-align: top; border-radius: 2px;}
+
+/* 年月列表 */
+.#{$dgg}-#{$dggdate}-list{position: absolute; left: 0; top: 0; width: 100%; height: 100%; padding: 10px; box-sizing: border-box; background-color: #fff;}
+.#{$dgg}-#{$dggdate}-list>li{position: relative; display: inline-block; width: 33.3%; height: 36px; line-height: 36px; margin: 3px 0; vertical-align: middle; text-align: center; cursor: pointer;}
+.#{$dggdate}-month-list>li{width: 25%; margin: 17px 0;}
+.#{$dggdate}-time-list{}
+.#{$dggdate}-time-list>li{height: 100%; margin: 0; line-height: normal; cursor: default;}
+.#{$dggdate}-time-list p{position: relative; top: -4px; line-height: 29px;}
+.#{$dggdate}-time-list ol{height: 181px; overflow: hidden;}
+.#{$dggdate}-time-list>li:hover ol{overflow-y: auto;}
+.#{$dggdate}-time-list ol li{width: 130%; padding-left: 33px; line-height: 30px; text-align: left; cursor: pointer;}
+
+/* 提示 */
+.#{$dgg}-#{$dggdate}-hint{position: absolute; top: 115px; left: 50%; width: 250px; margin-left: -125px; line-height: 20px; padding: 15px; text-align: center; font-size: 12px; color: $dggdate-hint-color;}
+
+
+/* 双日历 */
+.#{$dgg}-#{$dggdate}-range{width: 546px;}
+.#{$dgg}-#{$dggdate}-range .#{$dgg}-#{$dggdate}-main{display: inline-block; vertical-align: middle;}
+.#{$dgg}-#{$dggdate}-range .#{$dggdate}-main-list-0 .#{$dggdate}-next-m,
+.#{$dgg}-#{$dggdate}-range .#{$dggdate}-main-list-0 .#{$dggdate}-next-y,
+.#{$dgg}-#{$dggdate}-range .#{$dggdate}-main-list-1 .#{$dggdate}-prev-y,
+.#{$dgg}-#{$dggdate}-range .#{$dggdate}-main-list-1 .#{$dggdate}-prev-m{display: none;}
+.#{$dgg}-#{$dggdate}-range .#{$dggdate}-main-list-1 .#{$dgg}-#{$dggdate}-content{border-left: 1px solid $dggdate-range-border;}
+
+
+/* 默认简约主题 */
+.#{$dgg}-#{$dggdate}, .#{$dgg}-#{$dggdate}-hint{border: 1px solid $dggdate-hint-border; box-shadow: 0 2px 4px rgba(0,0,0,.12); background-color: $dggdate-default-hint-bg; color: $dggdate-default-color;}
+.#{$dgg}-#{$dggdate}-header{border-bottom: 1px solid $dggdate-default-border;}
+.#{$dgg}-#{$dggdate}-header i:hover,
+.#{$dgg}-#{$dggdate}-header span:hover{color: $dggdate-default-head-color-hover;}
+.#{$dgg}-#{$dggdate}-content{border-top: none 0; border-bottom: none 0;}
+.#{$dgg}-#{$dggdate}-content th{color: $dggdate-default-th-color;}
+.#{$dgg}-#{$dggdate}-content td{color: $dggdate-default-color;}
+.#{$dgg}-#{$dggdate}-content td.#{$dggdate}-selected{background-color: $dggdate-default-select-bg;}
+.#{$dggdate}-selected:hover{background-color: $dggdate-default-select-bg !important;}
+.#{$dgg}-#{$dggdate}-content td:hover,
+.#{$dgg}-#{$dggdate}-list li:hover{background-color: $dggdate-default-li-hover-bg; color: $dggdate-default-list-hover-color;}
+.#{$dggdate}-time-list li ol{margin: 0; padding: 0; border: 1px solid $dggdate-default-border; border-left-width: 0;}
+.#{$dggdate}-time-list li:first-child ol{border-left-width: 1px;}
+.#{$dggdate}-time-list>li:hover{background: none;}
+.#{$dgg}-#{$dggdate}-content .#{$dggdate}-day-prev,
+.#{$dgg}-#{$dggdate}-content .#{$dggdate}-day-next{color: $dggdate-default-next-color;}
+.#{$dggdate}-selected.#{$dggdate}-day-prev,
+.#{$dggdate}-selected.#{$dggdate}-day-next{background-color: $dggdate-default-next-bg !important;}
+.#{$dgg}-#{$dggdate}-footer{border-top: 1px solid $dggdate-default-border;}
+.#{$dgg}-#{$dggdate}-hint{color: $dggdate-hint-color;}
+.#{$dggdate}-day-mark::after{background-color: $dggdate-default-mark-bg;}
+.#{$dgg}-#{$dggdate}-content td.#{$dgg}-this .#{$dggdate}-day-mark::after{display: none;}
+.#{$dgg}-#{$dggdate}-footer span[lay-type="date"]{color: $dggdate-default-footer-color;}
+.#{$dgg}-#{$dggdate} .#{$dgg}-this{background-color: $dggdate-default-this-bg !important; color: $dggdate-default-this-color !important;}
+.#{$dgg}-#{$dggdate} .#{$dggdate}-disabled,
+.#{$dgg}-#{$dggdate} .#{$dggdate}-disabled:hover{background:none !important; color: $dggdate-default-disabled-color !important; cursor: not-allowed !important; -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none;}
+
+/* 墨绿/自定义背景色主题 */
+.#{$dggdate}-theme-molv{border: none;}
+.#{$dggdate}-theme-molv.#{$dgg}-#{$dggdate}-range{width: 548px}
+.#{$dggdate}-theme-molv .#{$dgg}-#{$dggdate}-main{width: 274px;}
+.#{$dggdate}-theme-molv .#{$dgg}-#{$dggdate}-header{border: none; background-color: $dggdate-molv-header-bg;}
+.#{$dggdate}-theme-molv .#{$dgg}-#{$dggdate}-header i,
+.#{$dggdate}-theme-molv .#{$dgg}-#{$dggdate}-header span{color: $dggdate-molv-header-color;}
+.#{$dggdate}-theme-molv .#{$dgg}-#{$dggdate}-header i:hover,
+.#{$dggdate}-theme-molv .#{$dgg}-#{$dggdate}-header span:hover{color: $dggdate-molv-header-hover-color;}
+.#{$dggdate}-theme-molv .#{$dgg}-#{$dggdate}-content{border: 1px solid $dggdate-molv-border; border-top: none; border-bottom: none;}
+.#{$dggdate}-theme-molv .#{$dggdate}-main-list-1 .#{$dgg}-#{$dggdate}-content{border-left: none;}
+.#{$dggdate}-theme-molv .#{$dgg}-#{$dggdate}-footer{border: 1px solid $dggdate-molv-border;}
+
+/* 格子主题 */
+.#{$dggdate}-theme-grid .#{$dgg}-#{$dggdate}-content td,
+.#{$dggdate}-theme-grid .#{$dgg}-#{$dggdate}-content thead,
+.#{$dggdate}-theme-grid .#{$dggdate}-year-list>li,
+.#{$dggdate}-theme-grid .#{$dggdate}-month-list>li{border: 1px solid $dggdate-grid-border;}
+.#{$dggdate}-theme-grid .#{$dggdate}-selected,
+.#{$dggdate}-theme-grid .#{$dggdate}-selected:hover{background-color: $dggdate-grid-select-hover-bg !important; color: $dggdate-grid-select-hover-color !important;}
+.#{$dggdate}-theme-grid .#{$dggdate}-selected.#{$dggdate}-day-prev,
+.#{$dggdate}-theme-grid .#{$dggdate}-selected.#{$dggdate}-day-next{color: $dggdate-grid-next-color !important;}
+.#{$dggdate}-theme-grid .#{$dggdate}-year-list,
+.#{$dggdate}-theme-grid .#{$dggdate}-month-list{margin: 1px 0 0 1px;}
+.#{$dggdate}-theme-grid .#{$dggdate}-year-list>li,
+.#{$dggdate}-theme-grid .#{$dggdate}-month-list>li{margin: 0 -1px -1px 0;}
+.#{$dggdate}-theme-grid .#{$dggdate}-year-list>li{height: 43px; line-height: 43px;}
+.#{$dggdate}-theme-grid .#{$dggdate}-month-list>li{height: 71px; line-height: 71px; }
+

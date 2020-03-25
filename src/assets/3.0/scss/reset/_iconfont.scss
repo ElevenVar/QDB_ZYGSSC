@@ -1,0 +1,167 @@
+/** 图标字体 **/
+@font-face {font-family: 'dggui-icon';
+  src: url('./font/lay/iconfont.eot?v=240');
+  src: url('./font/lay/iconfont.eot?v=240#iefix') format('embedded-opentype'),
+  url('./font/lay/iconfont.svg?v=240#iconfont') format('svg'),
+  url('./font/lay/iconfont.woff?v=240') format('woff'),
+  url('./font/lay/iconfont.ttf?v=240') format('truetype');
+}
+
+.#{$dgg}-icon{
+  font-family:"dggui-icon" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* font-class */
+.#{$dgg}-icon-reply-fill:before{content:"\e611"}
+.#{$dgg}-icon-set-fill:before{content:"\e614"}
+.#{$dgg}-icon-menu-fill:before{content:"\e60f"}
+.#{$dgg}-icon-search:before{content:"\e615"}
+.#{$dgg}-icon-share:before{content:"\e641"}
+.#{$dgg}-icon-set-sm:before{content:"\e620"}
+.#{$dgg}-icon-engine:before{content:"\e628"}
+.#{$dgg}-icon-close:before{content:"\1006"}
+.#{$dgg}-icon-close-fill:before{content:"\1007"}
+.#{$dgg}-icon-chart-screen:before{content:"\e629"}
+.#{$dgg}-icon-star:before{content:"\e600"}
+.#{$dgg}-icon-circle-dot:before{content:"\e617"}
+.#{$dgg}-icon-chat:before{content:"\e606"}
+.#{$dgg}-icon-release:before{content:"\e609"}
+.#{$dgg}-icon-list:before{content:"\e60a"}
+.#{$dgg}-icon-chart:before{content:"\e62c"}
+.#{$dgg}-icon-ok-circle:before{content:"\1005"}
+.#{$dgg}-icon-layim-theme:before{content:"\e61b"}
+.#{$dgg}-icon-table:before{content:"\e62d"}
+.#{$dgg}-icon-right:before{content:"\e602"}
+.#{$dgg}-icon-left:before{content:"\e603"}
+.#{$dgg}-icon-cart-simple:before{content:"\e698"}
+.#{$dgg}-icon-face-cry:before{content:"\e69c"}
+.#{$dgg}-icon-face-smile:before{content:"\e6af"}
+.#{$dgg}-icon-survey:before{content:"\e6b2"}
+.#{$dgg}-icon-tree:before{content:"\e62e"}
+.#{$dgg}-icon-upload-circle:before{content:"\e62f"}
+.#{$dgg}-icon-add-circle:before{content:"\e61f"}
+.#{$dgg}-icon-download-circle:before{content:"\e601"}
+.#{$dgg}-icon-templeate-1:before{content:"\e630"}
+.#{$dgg}-icon-util:before{content:"\e631"}
+.#{$dgg}-icon-face-surprised:before{content:"\e664"}
+.#{$dgg}-icon-edit:before{content:"\e642"}
+.#{$dgg}-icon-speaker:before{content:"\e645"}
+.#{$dgg}-icon-down:before{content:"\e61a"}
+.#{$dgg}-icon-file:before{content:"\e621"}
+.#{$dgg}-icon-layouts:before{content:"\e632"}
+.#{$dgg}-icon-rate-half:before{content:"\e6c9"}
+.#{$dgg}-icon-add-circle-fine:before{content:"\e608"}
+.#{$dgg}-icon-prev-circle:before{content:"\e633"}
+.#{$dgg}-icon-read:before{content:"\e705"}
+.#{$dgg}-icon-404:before{content:"\e61c"}
+.#{$dgg}-icon-carousel:before{content:"\e634"}
+.#{$dgg}-icon-help:before{content:"\e607"}
+.#{$dgg}-icon-code-circle:before{content:"\e635"}
+.#{$dgg}-icon-water:before{content:"\e636"}
+.#{$dgg}-icon-username:before{content:"\e66f"}
+.#{$dgg}-icon-find-fill:before{content:"\e670"}
+.#{$dgg}-icon-about:before{content:"\e60b"}
+.#{$dgg}-icon-location:before{content:"\e715"}
+.#{$dgg}-icon-up:before{content:"\e619"}
+.#{$dgg}-icon-pause:before{content:"\e651"}
+.#{$dgg}-icon-date:before{content:"\e637"}
+.#{$dgg}-icon-layim-uploadfile:before{content:"\e61d"}
+.#{$dgg}-icon-delete:before{content:"\e640"}
+.#{$dgg}-icon-play:before{content:"\e652"}
+.#{$dgg}-icon-top:before{content:"\e604"}
+.#{$dgg}-icon-friends:before{content:"\e612"}
+.#{$dgg}-icon-refresh-3:before{content:"\e9aa"}
+.#{$dgg}-icon-ok:before{content:"\e605"}
+.#{$dgg}-icon-layer:before{content:"\e638"}
+.#{$dgg}-icon-face-smile-fine:before{content:"\e60c"}
+.#{$dgg}-icon-dollar:before{content:"\e659"}
+.#{$dgg}-icon-group:before{content:"\e613"}
+.#{$dgg}-icon-layim-download:before{content:"\e61e"}
+.#{$dgg}-icon-picture-fine:before{content:"\e60d"}
+.#{$dgg}-icon-link:before{content:"\e64c"}
+.#{$dgg}-icon-diamond:before{content:"\e735"}
+.#{$dgg}-icon-log:before{content:"\e60e"}
+.#{$dgg}-icon-rate-solid:before{content:"\e67a"}
+.#{$dgg}-icon-fonts-del:before{content:"\e64f"}
+.#{$dgg}-icon-unlink:before{content:"\e64d"}
+.#{$dgg}-icon-fonts-clear:before{content:"\e639"}
+.#{$dgg}-icon-triangle-r:before{content:"\e623"}
+.#{$dgg}-icon-circle:before{content:"\e63f"}
+.#{$dgg}-icon-radio:before{content:"\e643"}
+.#{$dgg}-icon-align-center:before{content:"\e647"}
+.#{$dgg}-icon-align-right:before{content:"\e648"}
+.#{$dgg}-icon-align-left:before{content:"\e649"}
+.#{$dgg}-icon-loading-1:before{content:"\e63e"}
+.#{$dgg}-icon-return:before{content:"\e65c"}
+.#{$dgg}-icon-fonts-strong:before{content:"\e62b"}
+.#{$dgg}-icon-upload:before{content:"\e67c"}
+.#{$dgg}-icon-dialogue:before{content:"\e63a"}
+.#{$dgg}-icon-video:before{content:"\e6ed"}
+.#{$dgg}-icon-headset:before{content:"\e6fc"}
+.#{$dgg}-icon-cellphone-fine:before{content:"\e63b"}
+.#{$dgg}-icon-add-1:before{content:"\e654"}
+.#{$dgg}-icon-face-smile-b:before{content:"\e650"}
+.#{$dgg}-icon-fonts-html:before{content:"\e64b"}
+.#{$dgg}-icon-form:before{content:"\e63c"}
+.#{$dgg}-icon-cart:before{content:"\e657"}
+.#{$dgg}-icon-camera-fill:before{content:"\e65d"}
+.#{$dgg}-icon-tabs:before{content:"\e62a"}
+.#{$dgg}-icon-fonts-code:before{content:"\e64e"}
+.#{$dgg}-icon-fire:before{content:"\e756"}
+.#{$dgg}-icon-set:before{content:"\e716"}
+.#{$dgg}-icon-fonts-u:before{content:"\e646"}
+.#{$dgg}-icon-triangle-d:before{content:"\e625"}
+.#{$dgg}-icon-tips:before{content:"\e702"}
+.#{$dgg}-icon-picture:before{content:"\e64a"}
+.#{$dgg}-icon-more-vertical:before{content:"\e671"}
+.#{$dgg}-icon-flag:before{content:"\e66c"}
+.#{$dgg}-icon-loading:before{content:"\e63d"}
+.#{$dgg}-icon-fonts-i:before{content:"\e644"}
+.#{$dgg}-icon-refresh-1:before{content:"\e666"}
+.#{$dgg}-icon-rmb:before{content:"\e65e"}
+.#{$dgg}-icon-home:before{content:"\e68e"}
+.#{$dgg}-icon-user:before{content:"\e770"}
+.#{$dgg}-icon-notice:before{content:"\e667"}
+.#{$dgg}-icon-login-weibo:before{content:"\e675"}
+.#{$dgg}-icon-voice:before{content:"\e688"}
+.#{$dgg}-icon-upload-drag:before{content:"\e681"}
+.#{$dgg}-icon-login-qq:before{content:"\e676"}
+.#{$dgg}-icon-snowflake:before{content:"\e6b1"}
+.#{$dgg}-icon-file-b:before{content:"\e655"}
+.#{$dgg}-icon-template:before{content:"\e663"}
+.#{$dgg}-icon-auz:before{content:"\e672"}
+.#{$dgg}-icon-console:before{content:"\e665"}
+.#{$dgg}-icon-app:before{content:"\e653"}
+.#{$dgg}-icon-prev:before{content:"\e65a"}
+.#{$dgg}-icon-website:before{content:"\e7ae"}
+.#{$dgg}-icon-next:before{content:"\e65b"}
+.#{$dgg}-icon-component:before{content:"\e857"}
+.#{$dgg}-icon-more:before{content:"\e65f"}
+.#{$dgg}-icon-login-wechat:before{content:"\e677"}
+.#{$dgg}-icon-shrink-right:before{content:"\e668"}
+.#{$dgg}-icon-spread-left:before{content:"\e66b"}
+.#{$dgg}-icon-camera:before{content:"\e660"}
+.#{$dgg}-icon-note:before{content:"\e66e"}
+.#{$dgg}-icon-refresh:before{content:"\e669"}
+.#{$dgg}-icon-female:before{content:"\e661"}
+.#{$dgg}-icon-male:before{content:"\e662"}
+.#{$dgg}-icon-password:before{content:"\e673"}
+.#{$dgg}-icon-senior:before{content:"\e674"}
+.#{$dgg}-icon-theme:before{content:"\e66a"}
+.#{$dgg}-icon-tread:before{content:"\e6c5"}
+.#{$dgg}-icon-praise:before{content:"\e6c6"}
+.#{$dgg}-icon-star-fill:before{content:"\e658"}
+.#{$dgg}-icon-rate:before{content:"\e67b"}
+.#{$dgg}-icon-template-1:before{content:"\e656"}
+.#{$dgg}-icon-vercode:before{content:"\e679"}
+.#{$dgg}-icon-cellphone:before{content:"\e678"}
+.#{$dgg}-icon-screen-full:before{content:"\e622";}
+.#{$dgg}-icon-screen-restore:before{content:"\e758";}
+.#{$dgg}-icon-cols:before{content:"\e610";}
+.#{$dgg}-icon-export:before{content:"\e67d";}
+.#{$dgg}-icon-print:before {content:"\e66d";}
+.#{$dgg}-icon-slider:before {content: "\e714";}

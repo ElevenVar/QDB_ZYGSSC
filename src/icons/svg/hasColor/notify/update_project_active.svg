@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <g id="页面1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="通知icon" transform="translate(-593.000000, -385.000000)">
+            <g id="update_project_active" transform="translate(593.000000, 385.000000)">
+                <g id="编组-5复制-3">
+                    <circle id="椭圆形复制-6" fill="#FFEECB" cx="18" cy="18" r="18"></circle>
+                    <g id="编组-12" stroke-linecap="round" stroke-linejoin="round" transform="translate(20.000000, 20.000000)" stroke="#764E4E" stroke-width="1.5">
+                        <polyline id="直线-2" points="0 1.8 6 1.8 4.50916356 0"></polyline>
+                        <polyline id="直线-2复制" transform="translate(3.000000, 6.100000) rotate(-180.000000) translate(-3.000000, -6.100000) " points="0 7 6 7 4.50916356 5.2"></polyline>
+                    </g>
+                </g>
+                <circle id="椭圆形" stroke="#764E4E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" cx="18" cy="14" r="4"></circle>
+                <path d="M18,18 C14.1340068,18 11,21.1340068 11,25" id="路径" stroke="#764E4E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

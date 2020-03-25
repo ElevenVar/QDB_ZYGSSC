@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>pause_pass_active</title>
+    <desc>Created with Sketch.</desc>
+    <g id="法律生产-企大宝" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="通知icon" transform="translate(-423.000000, -455.000000)">
+            <g id="pause_pass_active" transform="translate(423.000000, 455.000000)">
+                <circle id="椭圆形" fill="#D1F5E9" cx="18" cy="18" r="18"></circle>
+                <g id="编组-2" transform="translate(12.000000, 12.000000)" stroke="#01928E" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                    <polyline id="路径" points="6 13 0 13 0 0 13 0 13 5.48174569"></polyline>
+                    <polyline id="路径" transform="translate(12.363599, 10.500000) rotate(-315.000000) translate(-12.363599, -10.500000) " points="13.5375835 8 13.7271987 13 11 13"></polyline>
+                    <g id="编组-4" transform="translate(4.600000, 5.000000)">
+                        <line x1="0.5" y1="3.5" x2="0.5" y2="4.46185443e-14" id="直线-4备份-2"></line>
+                        <line x1="3.5" y1="3.5" x2="3.5" y2="4.46185443e-14" id="直线-4备份-3"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

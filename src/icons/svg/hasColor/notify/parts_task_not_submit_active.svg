@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>parts_task_not_submit_active</title>
+    <desc>Created with Sketch.</desc>
+    <g id="法律生产-企大宝" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="通知icon" transform="translate(-1007.000000, -455.000000)">
+            <g id="parts_task_not_submit_active" transform="translate(1007.000000, 455.000000)">
+                <circle id="椭圆形" fill="#F5D1D0" cx="18" cy="18" r="18"></circle>
+                <rect id="矩形" stroke="#764E4E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" transform="translate(12.828427, 14.828427) rotate(-315.000000) translate(-12.828427, -14.828427) " x="10.8284271" y="12.8284271" width="4" height="4"></rect>
+                <line x1="18.8284271" y1="15.3284271" x2="25.8284271" y2="15.3284271" id="直线-11" stroke="#764E4E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="10.8284271" y1="22.3284271" x2="25.8284271" y2="22.3284271" id="直线-11复制" stroke="#764E4E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></line>
+            </g>
+        </g>
+    </g>
+</svg>

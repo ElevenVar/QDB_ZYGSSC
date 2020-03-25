@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>process_not_pass_active</title>
+    <desc>Created with Sketch.</desc>
+    <g id="法律生产-企大宝" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="通知icon" transform="translate(-1334.000000, -455.000000)">
+            <g id="process_not_pass_active" transform="translate(1334.000000, 455.000000)">
+                <circle id="椭圆形" fill="#F5D1D0" cx="18" cy="18" r="18"></circle>
+                <path d="M24.6887323,15.9295017 C23.805905,13.0743027 21.1451922,11 18,11 C14.1340068,11 11,14.1340068 11,18 C11,21.8659932 14.1340068,25 18,25" id="路径" stroke="#764E4E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <circle id="椭圆形" stroke="#764E4E" stroke-width="1.5" fill="#F5D1D0" stroke-linecap="round" stroke-linejoin="round" cx="18" cy="11" r="2"></circle>
+                <circle id="椭圆形备份" stroke="#764E4E" stroke-width="1.5" fill="#F5D1D0" stroke-linecap="round" stroke-linejoin="round" cx="12" cy="22" r="2"></circle>
+                <g id="编组-13" transform="translate(25.000000, 22.242641) rotate(-315.000000) translate(-25.000000, -22.242641) translate(22.000000, 19.242641)" stroke="#764E4E" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                    <line x1="0.5" y1="3" x2="5.5" y2="3" id="直线-16"></line>
+                    <line x1="0.5" y1="3" x2="5.5" y2="3" id="直线-16复制" transform="translate(3.000000, 3.000000) rotate(-270.000000) translate(-3.000000, -3.000000) "></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,158 @@
+$dgg:'dggui';
+$white: #fff !default;
+$gray-100:#333;
+$gray-110:#393D49;
+$gray-200:#4E5465;
+$gray-210:#555;
+$gray-300:#666;
+$gray-400:#777;
+$gray-410:#737383;
+$gray-420:#888;
+$gray-430:#999;
+$gray-440:#9F9F9F;
+$gray-500:#b2b2b2;
+$gray-600:#C2C2C2;
+$gray-610:#C9C9C9;
+$gray-620:#ccc;
+$gray-700:#d2d2d2;
+$gray-710:#d9d9d9;
+$gray-800:#e2e2e2;
+$gray-810:#e6e6e6;
+$gray-820:#e8e8e8;
+$gray-830:#eee;
+$gray-900:#f0f0f0;
+$gray-910:#f2f2f2;
+$gray-920:#fbfbfb;
+$black:#000;
+
+$green:#009688;
+$green-100:#5FB878;
+$green-200:#00FF00;
+
+$blue:#007DDB;
+$blue-100:#1E9FFF;
+$blue-200:#93D1FF;
+$blue-300:#00FFFF;
+
+$red:#FF5722;
+$yellow:#FFB800;
+$orange:#EB7350;
+
+/*按钮背景色*/
+$bg-btn: $green;
+$bg-btn-primary: $white;
+$bg-btn-normal: $blue-100;
+$bg-btn-warm: $yellow;
+$bg-btn-danger: $red;
+$bg-btn-disabled: $gray-920;
+
+/*各元素边框颜色*/
+$border-btn:$gray-610;
+$border-form:$gray-810;
+$border-tab:$gray-810;
+$border-tab-active:$green-100;
+$border-panel:$gray-810;
+$border-table:$gray-810;
+$border-dialog:$gray-830;
+$border-date:$gray-800;
+$border-page:$gray-800;
+
+
+
+/*默认全局字体颜色*/
+$font:$gray-300;
+$font-white:$white;
+$font-gray:$green-100;
+
+/*背景色*/
+$bg-white:#fff;
+/*日期控件*/
+$dggdate-header-color:$gray-430;
+$dggdate-footer-color:$green-100;
+$dggdate-footer-border:$gray-610;
+$dggdate-hint-color:$red;
+$dggdate-hint-border:$gray-700;
+$dggdate-range-border:$gray-800;
+/*日期控件 默认主体*/
+$dggdate-default-hint-bg:$white;
+$dggdate-default-color:$gray-300;
+$dggdate-default-head-color-hover:$green-100;
+$dggdate-default-mark-bg:$green-100;
+$dggdate-default-footer-color:$green-100;
+$dggdate-default-border:$gray-800;
+$dggdate-default-th-color:$gray-100;
+$dggdate-default-list-hover-color:$gray-100;
+$dggdate-default-li-hover-bg:#eaeaea;
+$dggdate-default-select-bg:#00F7DE;
+$dggdate-default-next-color:$gray-700;
+$dggdate-default-next-bg:#f8f8f8;
+$dggdate-default-this-bg:$green;
+$dggdate-default-this-color:$white;
+$dggdate-default-disabled-color:$gray-700;
+/*日期控件 墨绿/自定义背景主体色*/
+$dggdate-molv-header-bg:$green;
+$dggdate-molv-header-color:#f6f6f6;
+$dggdate-molv-header-hover-color:$white;
+$dggdate-molv-border:$gray-800;
+/*日期控件 格子主题*/
+$dggdate-grid-border:$gray-800;
+$dggdate-grid-select-hover-bg:$gray-910;
+$dggdate-grid-select-hover-color:$green;
+$dggdate-grid-next-color:$gray-700;
+
+/*弹窗*/
+$layer-bg:$white;
+$layer-border:$gray-500;
+$layer-border-rgb:$black;
+$layer-load-bg:$gray-830;
+/*弹窗 标题栏*/
+$layer-title-border:$gray-830;
+$layer-title-color:$gray-100;
+$layer-title-bg:#f8f8f8;
+$layer-title-min-bg:#2E2D3C;
+$layer-title-min-hover-bg:#2D93CA;
+/*弹窗 按钮组*/
+$layer-btn-border:#dedede;
+$layer-btn-bg:$white;
+$layer-btn-color:$gray-100;
+$layer-btn0-border:$blue-100;
+$layer-btn0-bg:$blue-100;
+$layer-btn0-color:$white;
+/*弹窗 定制化*/
+$layer-rim-border:#8D8D8D;
+$layer-rim-rgb-border:$black;
+$layer-msg-border:#D3D4D3;
+$layer-hui-bg:$black;
+$layer-hui-color:$white;
+$layer-tip-bg:$black;
+$layer-tip-border:$black;
+$layer-tip-color:$white;
+/*弹窗 skin*/
+$layer-lan-color:$white;
+$layer-lan-bg:#4476A7;
+$layer-lan-border:#E9E7E7;
+$layer-lan-a-bg:$white;
+$layer-lan-a-color:$gray-100;
+$layer-lan-btn1-bg:#C9C5C5;
+$layer-molv-title-bg:#009f95;
+$layer-molv-title-color:#fff;
+$layer-molv-a-bg:#009f95;
+$layer-molv-a-border:#009f95;
+$layer-molv-btn1-bg:#92B8B1;
+/*弹窗 prompt模式*/
+$layer-prompt-border:$gray-810;
+$layer-prompt-color:$gray-100;
+/*弹窗 tab模式*/
+$layer-tab-border:$gray-830;
+$layer-tab-bg:$white;
+/*弹窗 photo模式*/
+$layer-photo-bg:$black;
+$layer-photo-color:$white;
+
+/*使用浮动过后，清除浮动*/
+@mixin clear{
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+}

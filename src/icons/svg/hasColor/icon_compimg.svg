@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="69px" viewBox="0 0 100 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>icon_compimg</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="公共模块-个人信息-修改手机号第三步" transform="translate(-908.000000, -499.000000)">
+            <g id="icon_compimg" transform="translate(908.000000, 498.000000)">
+                <path d="M51.235,10.901 C35.433,10.661 22.49,23.511 22.834,39.096 C23.119,52.003 32.395,62.726 44.731,65.415 C45.101,65.496 51.86,66.493 56.861,65.414 C69.397,62.714 78.761,51.662 78.761,38.482 C78.761,23.393 66.478,11.133 51.235,10.901 Z" id="路径" fill="#70D6D4"></path>
+                <polygon id="路径" fill="#ACF0E5" points="49.583 47.997 39.618 38.715 40.555 36.856 49.496 41.911 66.665 27.996 67.588 29.84"></polygon>
+                <polygon id="路径" fill="#ACF0E5" opacity="0.8" points="14.389 29.644 3.621 22.888 0.748 32.299"></polygon>
+                <polygon id="路径" fill="#ACF0E5" opacity="0.6" points="76.517 63.992 81.931 70.006 85.504 64.963"></polygon>
+                <polygon id="路径" fill="#FBC910" opacity="0.8" points="87.443 24.969 84.133 15.68 75.455 12.967 84.133 10.255 87.443 0.966 90.753 10.255 99.432 12.967 90.753 15.68"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

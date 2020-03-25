@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>编组 17</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="91.784886%" y1="100%" x2="9.08167915%" y2="7.65384382%" id="linearGradient-1">
+            <stop stop-color="#10BBB8" offset="0%"></stop>
+            <stop stop-color="#18DAB1" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="50" height="50" rx="14"></rect>
+        <filter x="-64.0%" y="-50.0%" width="228.0%" height="228.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="7" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="9.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.854901961   0 0 0 0 0.866666667   0 0 0 0 0.901960784  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="订单-办理中订单-产品详情-任务" transform="translate(-1714.000000, -235.000000)">
+            <g id="编组-17" transform="translate(1733.000000, 247.000000)">
+                <g id="矩形复制-15备份-3">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+                <path d="M23.5347322,15 L16,19.7979709 L27.8290598,19.7979709 C31.237176,19.7979709 34,22.5607949 34,25.9689111 C34,29.3770272 31.237176,32.1398512 27.8290598,32.1398512 L16,32.1398512 L16,32.1398512" id="路径备份" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

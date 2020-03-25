@@ -1,0 +1,40 @@
+/** 分页 **/
+.#{$dgg}-dggpage{display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; margin: 10px 0; font-size: 0;}
+.#{$dgg}-dggpage>a:first-child,
+.#{$dgg}-dggpage>a:first-child em{border-radius: 2px 0 0 2px;}
+.#{$dgg}-dggpage>a:last-child,
+.#{$dgg}-dggpage>a:last-child em{border-radius: 0 2px 2px 0;}
+.#{$dgg}-dggpage>*:first-child{margin-left: 0!important;}
+.#{$dgg}-dggpage>*:last-child{margin-right: 0!important;}
+.#{$dgg}-dggpage a,
+.#{$dgg}-dggpage span,
+.#{$dgg}-dggpage input,
+.#{$dgg}-dggpage button,
+.#{$dgg}-dggpage select{border: 1px solid $gray-800;}
+.#{$dgg}-dggpage a,
+.#{$dgg}-dggpage span{display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; padding: 0 15px; height: 28px; line-height: 28px; margin: 0 -1px 5px 0; background-color: $white; color: $gray-100; font-size: 12px;}
+.#{$dgg}-dggpage a:hover{color: #ffa473;}
+.#{$dgg}-dggpage em{font-style: normal;}
+.#{$dgg}-dggpage .#{$dgg}-dggpage-spr{color:$gray-430; font-weight: 700;}
+.#{$dgg}-dggpage a{ text-decoration: none;}
+.#{$dgg}-dggpage .#{$dgg}-dggpage-curr{position: relative;}
+.#{$dgg}-dggpage .#{$dgg}-dggpage-curr em{position: relative; color: $white;}
+.#{$dgg}-dggpage .#{$dgg}-dggpage-curr .#{$dgg}-dggpage-em{position: absolute; left: -1px; top: -1px; padding: 1px; width: 100%; height: 100%; background-color: #ffa473; }
+.#{$dgg}-dggpage-em{border-radius: 2px;}
+.#{$dgg}-dggpage-prev em,
+.#{$dgg}-dggpage-next em{font-family: Sim sun; font-size: 16px;}
+
+.#{$dgg}-dggpage .#{$dgg}-dggpage-count,
+.#{$dgg}-dggpage .#{$dgg}-dggpage-limits,
+.#{$dgg}-dggpage .#{$dgg}-dggpage-refresh,
+.#{$dgg}-dggpage .#{$dgg}-dggpage-skip{margin-left: 10px; margin-right: 10px; padding: 0; border: none;}
+.#{$dgg}-dggpage .#{$dgg}-dggpage-limits,
+.#{$dgg}-dggpage .#{$dgg}-dggpage-refresh{vertical-align: top;}
+.#{$dgg}-dggpage .#{$dgg}-dggpage-refresh i{font-size: 18px; cursor: pointer;}
+.#{$dgg}-dggpage select{height: 22px; padding: 3px; border-radius: 2px; cursor: pointer;}
+.#{$dgg}-dggpage .#{$dgg}-dggpage-skip{height: 30px; line-height: 30px; color: $gray-430;}
+.#{$dgg}-dggpage input, .#{$dgg}-dggpage button{height: 30px; line-height: 30px; border-radius: 2px; vertical-align: top;  background-color: $white; box-sizing: border-box;}
+.#{$dgg}-dggpage input{display: inline-block; width: 40px; margin: 0 10px; padding: 0 3px; text-align: center;}
+.#{$dgg}-dggpage input:focus,
+.#{$dgg}-dggpage select:focus{border-color: #ffa473!important;}
+.#{$dgg}-dggpage button{margin-left: 10px; padding: 0 10px; cursor: pointer;}

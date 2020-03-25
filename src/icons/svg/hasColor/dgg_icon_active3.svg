@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="9px" height="8px" viewBox="0 0 9 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <defs>
+        <circle id="path-1" cx="4.73059724" cy="4" r="4"></circle>
+    </defs>
+    <g id="页面1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="订单-办理-产品详情-动态" transform="translate(-311.000000, -284.000000)">
+            <g id="icon_3/4" transform="translate(311.000000, 284.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="蒙版" fill="#DBDCDE" xlink:href="#path-1"></use>
+                <path d="M4.73059724,-5.15143483e-14 L4.73059724,4.25725564 L9.33877292,4.25725564 C9.43924485,8.03549251 7.64819522,9.61055455 3.96562405,8.98244178 C-1.55823271,8.04027262 -0.151205992,0.514511284 1.32942551,0.257255642 C2.31651317,0.0857518806 3.45023708,-5.15143483e-14 4.73059724,-5.15143483e-14 Z" id="路径-3" fill="#10BBB8" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

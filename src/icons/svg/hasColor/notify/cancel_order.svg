@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <g id="页面1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="通知icon" transform="translate(-593.000000, -812.000000)">
+            <g id="cancel_order" transform="translate(593.000000, 812.000000)">
+                <g id="编组-2复制-16" fill="#E7E8EB">
+                    <circle id="椭圆形" cx="18" cy="18" r="18"></circle>
+                </g>
+                <polyline id="路径复制-4" stroke="#979797" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" points="18 18 25 18 25 25 11 25 11 11 25 11"></polyline>
+                <polyline id="路径复制-6" stroke="#979797" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" transform="translate(19.633131, 17.633131) rotate(-315.000000) translate(-19.633131, -17.633131) " points="21.4950357 19.4855119 17.7712262 19.4950357 17.78075 15.7712262 17.78075 15.7712262"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

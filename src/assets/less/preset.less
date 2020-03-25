@@ -1,0 +1,100 @@
+//  前端框架主题颜色。
+
+@main : var(--main-primary-color);
+@main-click : var(--main-primary-click-color);
+@main-hover : var(--main-primary-hover-color);
+@main-bg : var(--main-primary-bg-color);
+
+@neutral : var(--neutral-main-word-color);
+@neutral-minor : var(--neutral-minor-word-color);
+@neutral-help : var(--neutral-help-word-color);
+@neutral-placeholder : var(--neutral-placeholder-word-color);
+@neutral-btn : var(--neutral-btn-color);
+@neutral-border : var(--neutral-border-color);
+@neutral-bg : var(--neutral-bg-color);
+@neutral-base : var(--neutral-base-color);
+
+@feature-success : var(--feature-success-color);
+@feature-success-click : var(--feature-success-click-color);
+@feature-success-hover : var(--feature-success-hover-color);
+@feature-success-bg : var(--feature-success-bg-color);
+
+@feature-warn : var(--feature-warn-color);
+@feature-warn-click : var(--feature-warn-click-color);
+@feature-warn-hover : var(--feature-warn-hover-color);
+@feature-warn-bg : var(--feature-warn-bg-color);
+
+@feature-danger : var(--feature-danger-color);
+@feature-danger-click : var(--feature-danger-click-color);
+@feature-danger-hover : var(--feature-danger-hover-color);
+@feature-danger-bg : var(--feature-danger-bg-color);
+
+@feature-link : var(--feature-link-color);
+@feature-link-click : var(--feature-link-click-color);
+@feature-link-hover : var(--feature-link-hover-color);
+@feature-link-bg : var(--feature-link-bg-color);
+
+
+:root {
+  // ------------------- 主色 start---------------
+  --main-primary-color: #10bbb8; // 主色
+  --main-primary-click-color: #069294; // 点击
+  --main-primary-hover-color: #32c7bf; // 移入
+  --main-primary-bg-color: #e1faf5; // 背景
+  // ------------------- 主色 end -------------------
+  // ------------------- 中性色 start ---------------
+  --neutral-main-word-color: #262626; //主要文字
+  --neutral-minor-word-color: #595959; //次要文字
+  --neutral-help-word-color: #8c8c8c; //辅助文字
+  --neutral-placeholder-word-color: #bfbfbf; //占位文字
+  --neutral-btn-color: #d9d9d9; //输入框/按钮
+  --neutral-border-color: #e5e5e5; //边框/线条
+  --neutral-bg-color: #f2f2f2; // 背景
+  --neutral-base-color: #ffffff; // 基础白色
+  // ------------------- 中性色 end -------------------
+  // ------------------- 功能 start -------------------
+  --feature-success-color: #4db818; // 成功
+  --feature-success-click-color: #34910c; //
+  --feature-success-hover-color: #6cc439; //
+  --feature-success-bg-color: #eff7e6; //
+
+  --feature-warn-color: #ff8f1f; // 警告
+  --feature-warn-click-color: #D96D0F; //
+  --feature-warn-hover-color: #FFA947; //
+  --feature-warn-bg-color: #FFF8EB; //
+
+  --feature-danger-color: #f52a1f; // 危险
+  --feature-danger-click-color: #cf191f; //
+  --feature-danger-hover-color: #ff5a54; //
+  --feature-danger-bg-color: #fff2f0; //
+
+  --feature-link-color: #1784f1; //  link
+  --feature-link-click-color: #0a65cc; //
+  --feature-link-hover-color: #42a7ff; //
+  --feature-link-bg-color: #e6f7ff; //
+
+  // ------------------- 功能 end -------------------
+
+}
+
+.scrollbar(@width: 6px) {
+  &::-webkit-scrollbar {
+    width: @width;
+    /*对垂直流动条有效*/
+  }
+
+  /*定义滚动条的轨道颜色、内阴影及圆角*/
+  &::-webkit-scrollbar-track {
+    //width: 8px;
+    //-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    //background-color: red;
+    //border-radius: 3px;
+  }
+
+  /*定义滑块颜色、内阴影及圆角*/
+  &::-webkit-scrollbar-thumb {
+    border-radius: @width;
+    -webkit-box-shadow: inset 0 0 @width rgba(0, 0, 0, .3);
+    background-color: @neutral-placeholder;
+  }
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="47px" height="18px" viewBox="0 0 47 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <defs>
+        <linearGradient x1="7.12601666%" y1="42.6663649%" x2="93.7966331%" y2="57.3336351%" id="linearGradient-1">
+            <stop stop-color="#C1C7D0" offset="0%"></stop>
+            <stop stop-color="#8A909B" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="订单-待抢单" transform="translate(-400.000000, -261.000000)">
+            <g id="icon_civil" transform="translate(400.000000, 261.000000)">
+                <rect id="矩形" fill="url(#linearGradient-1)" x="0" y="0" width="47" height="18" rx="9"></rect>
+                <g id="编组" transform="translate(6.000000, 4.000000)" stroke="#FFFFFF" stroke-linecap="round" stroke-width="0.8">
+                    <path d="M6.5409,2.65337 C6.5409,3.84237 5.5769,4.80637 4.3869,4.80637 C3.1979,4.80637 2.2339,3.84237 2.2339,2.65337 C2.2339,1.46437 3.1979,0.50037 4.3869,0.50037 C5.5769,0.50037 6.5409,1.46437 6.5409,2.65337 Z" id="Stroke-1"></path>
+                    <path d="M0.4999,8.70367 C0.4999,6.55767 2.2399,4.81667 4.3869,4.81667 C6.5339,4.81667 8.2739,6.55767 8.2739,8.70367" id="Stroke-3"></path>
+                </g>
+                <text id="民诉" font-family="PingFangSC-Regular, PingFang SC" font-size="12" font-weight="normal" letter-spacing="0.66" fill="#FFFFFF">
+                    <tspan x="16" y="13">民诉</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

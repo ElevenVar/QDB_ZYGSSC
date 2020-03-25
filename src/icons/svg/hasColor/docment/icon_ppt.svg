@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>icon_ppt</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="15.4998 0.0001 15.4998 2.6671 18.1668 2.6671"></polygon>
+        <filter x="-262.5%" y="-187.5%" width="624.9%" height="624.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="订单-办理中订单-产品详情-文档" transform="translate(-618.000000, -531.000000)">
+            <g id="编组-19" transform="translate(618.000000, 531.000000)">
+                <rect id="矩形" stroke="#979797" fill="#D8D8D8" opacity="0" x="0.5" y="0.5" width="21" height="21"></rect>
+                <g id="编组复制-3" transform="translate(2.000000, 2.000000)">
+                    <path d="M0,2.0001 L0,16.1671 C1.3527075e-16,17.2716695 0.8954305,18.1671 2,18.1671 L16.167,18.1671 C17.2715695,18.1671 18.167,17.2716695 18.167,16.1671 L18.167,3.49552712 C18.167,2.96509415 17.9562863,2.45638632 17.5812136,2.08131356 L16.0857864,0.585886438 C15.7107137,0.210813681 15.2020059,0.0001 14.6715729,0.0001 L2,0.0001 C0.8954305,0.0001 -1.3527075e-16,0.8955305 0,2.0001 Z" id="Fill-2" fill="#F26666"></path>
+                    <text id="P" font-family="DINAlternate-Bold, DIN Alternate" font-size="10" font-weight="bold" letter-spacing="0.55" fill="#FFFFFF">
+                        <tspan x="6" y="13">P</tspan>
+                    </text>
+                    <g id="Fill-1">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFB9B9" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

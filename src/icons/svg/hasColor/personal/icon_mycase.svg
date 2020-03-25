@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <g id="页面1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="公共模块-我的名片-编辑名片" transform="translate(-397.000000, -1211.000000)">
+            <g id="编组-7" transform="translate(397.000000, 1211.000000)">
+                <rect id="矩形" stroke="#979797" fill="#D8D8D8" opacity="0" x="0.5" y="0.5" width="21" height="21"></rect>
+                <g id="编组" transform="translate(3.000000, 4.000000)">
+                    <polygon id="Stroke-1" stroke="#231815" stroke-width="1.5" points="8.2791 7.1979 1.7181 4.0159 8.2791 0.8339 14.8391 4.0159"></polygon>
+                    <polygon id="Fill-3" fill="#9EA1A6" points="0.3078 7.4868 8.2788 11.3668 16.3598 7.4978 16.2868 5.9028 8.2788 9.6998 0.3338 5.8708"></polygon>
+                    <polygon id="Fill-4" fill="#9EA1A6" points="0.3078 10.8402 8.2788 14.7212 16.3598 10.8522 16.2868 9.2572 8.2788 13.0542 0.3338 9.2242"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

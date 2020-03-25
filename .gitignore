@@ -1,0 +1,24 @@
+.history/
+.DS_Store
+.history/
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+**/*.log
+lib/
+theme-chalk/
+test/unit/coverage
+test/e2e/reports
+selenium-debug.log
+#config/dev.env.js
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+.rar
+package-lock.json
+/*.rar

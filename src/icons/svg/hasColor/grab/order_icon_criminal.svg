@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="47px" height="18px" viewBox="0 0 47 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <defs>
+        <linearGradient x1="7.12601666%" y1="42.6663649%" x2="93.7966331%" y2="57.3336351%" id="linearGradient-1">
+            <stop stop-color="#C1C7D0" offset="0%"></stop>
+            <stop stop-color="#8A909B" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="订单-待抢单" transform="translate(-400.000000, -381.000000)">
+            <g id="icon_criminal" transform="translate(400.000000, 381.000000)">
+                <rect id="矩形复制-2" fill="url(#linearGradient-1)" x="0" y="0" width="47" height="18" rx="9"></rect>
+                <g id="编组" transform="translate(5.000000, 4.000000)" stroke="#FFFFFF" stroke-linecap="round" stroke-width="0.8">
+                    <path d="M4.1974,8.40733 L4.0194,8.49033 L3.8424,8.40733 C1.6064,7.36533 0.3084,5.05333 0.5234,2.66633 C1.0674,2.48633 1.4474,1.98933 1.5114,1.42033 L4.0194,0.53033 L6.5304,1.42233 C6.5934,1.99133 6.9744,2.48833 7.5174,2.66833 C7.7324,5.05433 6.4334,7.36533 4.1974,8.40733 Z" id="Stroke-1"></path>
+                    <line x1="4.0905" y1="3.44393" x2="4.0905" y2="5.23193" id="Stroke-3"></line>
+                </g>
+                <text id="刑诉" font-family="PingFangSC-Regular, PingFang SC" font-size="12" font-weight="normal" letter-spacing="0.66" fill="#FFFFFF">
+                    <tspan x="16" y="13">刑诉</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

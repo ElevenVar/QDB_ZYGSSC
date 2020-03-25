@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="25px" viewBox="0 0 24 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <defs>
+        <polygon id="path-1" points="0 0.2274 14.3171909 0.2274 14.3171909 14.5454545 0 14.5454545"></polygon>
+        <polygon id="path-3" points="0.2369 0.155718182 11.1720909 0.155718182 11.1720909 11.5937182 0.2369 11.5937182"></polygon>
+    </defs>
+    <g id="页面1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="工作台" transform="translate(-798.000000, -282.000000)">
+            <g id="编组-15" transform="translate(798.000000, 282.000000)">
+                <rect id="矩形" stroke="#979797" fill="#D8D8D8" opacity="0" x="0.5" y="0.5" width="23" height="23"></rect>
+                <g id="编组" transform="translate(3.000000, 2.000000)">
+                    <g transform="translate(0.000000, 4.025755)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M14.3171909,7.38694545 C14.3171909,11.3406727 11.1131,14.5464909 7.15764545,14.5464909 C3.20564545,14.5464909 -0.000172727273,11.3406727 -0.000172727273,7.38694545 C-0.000172727273,3.43321818 3.20564545,0.2274 7.15764545,0.2274 C11.1131,0.2274 14.3171909,3.43321818 14.3171909,7.38694545" id="Fill-1" fill="#B4F4E7" opacity="0.87" mask="url(#mask-2)"></path>
+                    </g>
+                    <g transform="translate(6.181818, 0.571209)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="Clip-4"></g>
+                        <path d="M0.2369,0.155718182 L0.2369,11.5937182 L11.1359909,11.5937182 C11.1394455,11.4762636 11.1722636,11.3657182 11.1722636,11.2465364 C11.1722636,5.17171818 6.28926364,0.250718182 0.2369,0.155718182" id="Fill-3" fill="#10BBB8" opacity="0.6" mask="url(#mask-4)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

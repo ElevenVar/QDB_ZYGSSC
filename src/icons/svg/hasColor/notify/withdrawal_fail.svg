@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>withdrawal_fail</title>
+    <desc>Created with Sketch.</desc>
+    <g id="法律生产-企大宝" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="通知icon" transform="translate(-828.000000, -1077.000000)">
+            <g id="withdrawal_fail" transform="translate(828.000000, 1077.000000)">
+                <circle id="椭圆形" fill="#E7E8EB" cx="18" cy="18" r="18"></circle>
+                <g id="编组-2" transform="translate(12.000000, 12.000000)" stroke="#979797" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                    <polyline id="路径" points="6 13 0 13 0 0 13 0 13 5.48174569"></polyline>
+                </g>
+                <g id="编组-4" transform="translate(16.600000, 15.000000)" stroke="#979797" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                    <g id="编组-3" transform="translate(5.400000, 5.700000)">
+                        <polyline id="路径" points="1.07829489 1.05179713 5 1.05179713 5 4.32591377 0 4.32591377"></polyline>
+                        <polyline id="路径" transform="translate(1.607071, 0.994898) rotate(-315.000000) translate(-1.607071, -0.994898) " points="2.27203657 1.65646259 0.942104597 1.65986395 0.945505957 0.329931973 0.945505957 0.329931973"></polyline>
+                    </g>
+                    <line x1="0.4" y1="1" x2="3.9" y2="1" id="直线-4备份-2"></line>
+                    <line x1="0.4" y1="5" x2="1.9" y2="5" id="直线-4备份-4"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

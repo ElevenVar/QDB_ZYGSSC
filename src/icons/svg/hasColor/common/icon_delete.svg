@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <g id="页面1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="订单-办理中订单-产品详情-任务" transform="translate(-584.000000, -269.000000)">
+            <g id="编组-6" transform="translate(584.000000, 269.000000)">
+                <rect id="icon_delete" stroke="#979797" fill="#D8D8D8" opacity="0" x="0.5" y="0.5" width="15" height="15"></rect>
+                <g id="编组" transform="translate(1.600000, 0.800000)" stroke="#666873" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                    <polyline id="Stroke-2" points="11.4496 3.07985684 11.4496 13.7926989 1.83830588 13.7926989 1.83830588 3.07985684"></polyline>
+                    <line x1="0.564705882" y1="2.84195368" x2="12.7239529" y2="2.84195368" id="Stroke-4"></line>
+                    <line x1="3.44079059" y1="0.568269474" x2="9.84756706" y2="0.568269474" id="Stroke-6"></line>
+                    <line x1="5.20365176" y1="5.89831579" x2="5.20365176" y2="10.7238316" id="Stroke-8"></line>
+                    <line x1="8.19666824" y1="5.89831579" x2="8.19666824" y2="10.7238316" id="Stroke-9"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

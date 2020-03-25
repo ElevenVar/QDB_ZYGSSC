@@ -1,0 +1,138 @@
+@import (reference) "./preset.less";
+
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0 auto;
+  min-width: 1360px;
+  // overflow: auto;
+  background-color: #EFF0F2;
+  font-size: 12px;
+  // overflow: hidden;
+  font-family: "PingFangSC-Regular", "Microsoft YaHei";
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.fr {
+  float: right;
+}
+
+.fl {
+  float: left;
+}
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+.el-input__inner {
+  height: 30px;
+}
+
+&::-webkit-scrollbar-track-piece {
+  background: #fff;
+}
+
+&::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  border-right: 1px solid #e6e6e6;
+}
+
+&::-webkit-scrollbar-thumb {
+  background-color: #c0c0c0;
+  border-radius: 0px;
+}
+
+/*去掉数字输入框的上下箭头*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0;
+}
+
+img {
+  user-select: none;
+}
+
+//  修改element input框
+// 黄伟加
+.el-input {
+  line-height: 28px;
+}
+
+.el-select {
+  line-height: 28px;
+}
+
+.el-input__inner {
+  line-height: 1;
+}
+
+.el-date-editor .el-range__icon {
+  line-height: 1;
+}
+
+.el-date-editor .el-range-separator {
+  line-height: 20px;
+}
+
+.el-pagination.is-background .btn-next,
+.el-pagination.is-background .btn-prev,
+.el-pagination.is-background .el-pager li {
+  border: 1px solid @neutral-btn;
+  background: none;
+  font-size: 12px;
+  font-family: "PingFangSC-Regular", "Microsoft YaHei";
+  font-weight: 400;
+  color: rgba(89, 89, 89, 1);
+}
+
+.el-pagination.is-background .el-pager li:not(.disabled).active {
+  background-color: @main;
+  color: @neutral-base;
+  border: 1px solid @main;
+}
+
+.el-pagination.is-background .btn-next:hover,
+.el-pagination.is-background .btn-prev:hover,
+.el-pagination.is-background .el-pager li:hover {
+  border: 1px solid @main;
+  color: @main;
+}
+
+.dgg-tableRow-green {
+  background-color: #EFF7E6 !important;
+
+}
+
+.dgg-tableRow-yellow {
+  background-color: #FFF8EB !important;
+}
+
+.dgg-tableRow-red {
+  background-color: #FFF2F0 !important;
+
+}
+
+
+//修改模态框弹窗问题
+.has-border-modal {
+  .el-dialog__header {
+    padding: 10px 24px;
+    border-bottom: 1px #E3E3E3 solid;
+
+    .el-dialog__headerbtn {
+      top: 11px;
+    }
+
+    &:after {
+      display: block;
+      height: 0;
+      content: '';
+      clear: both;
+    }
+  }
+}

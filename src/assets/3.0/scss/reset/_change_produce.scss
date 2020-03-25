@@ -1,0 +1,103 @@
+.change-produce-wrap{
+    padding: 20px;
+    background: #fff;
+
+    .change-produce-tit{
+        margin-bottom: 10px;
+    }
+
+    .change-produce-con{
+        width: 100%;
+        display: flex;
+        margin: 15px 0;
+
+        .change-produce-list{
+            flex: 1;
+            color: #333;
+            border: 1px solid #ebebeb;
+            border-right: none;
+
+            h3{
+                padding: 15px;
+                background: #f5f5f5;
+                font-size: 12px;
+                font-weight: bold;
+                border-right: none;
+                border-bottom: 1px solid #ebebeb;
+            }
+
+            ul{
+                max-height: 282px;
+                overflow-y: auto;
+                border-top: none;
+
+
+                li{
+                    padding: 15px;
+                    border-bottom: 1px solid #ebebeb;
+                    cursor: pointer;
+
+                    &:hover{
+                        background: #f5f5f5;
+                    }
+
+                    &.checked{
+                        color: #f8813f;
+
+                        i{
+                            font-size: 14px;
+                            float: right;
+                            color: #f8813f;
+                        }
+                    }
+                }
+
+            }
+
+            &:last-child{
+                border-right: 1px solid #ebebeb;
+            }
+
+
+        }
+
+        
+    }
+}
+
+.table-finance{
+    .open-list{ 
+        font-style: normal;
+        border: 1px solid #e0e0e0;
+        width: 15px;
+        height: 15px;
+        display: inline-block;
+        line-height: 13px;
+        text-align: center;
+        font-size: 16px;
+        position: relative;
+        top: 1px;
+        cursor: pointer;
+    }
+
+    .child1{
+        padding-left: 30px !important;
+    }
+    .child2{
+        padding-left: 60px !important;
+    }
+    .child3{
+        padding-left: 90px !important;
+    }
+    .child4{
+        padding-left: 120px !important;
+    }
+    .child5{
+        padding-left: 150px !important;
+    }
+
+
+
+
+
+}
